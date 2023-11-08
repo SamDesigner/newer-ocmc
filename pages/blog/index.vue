@@ -1,8 +1,4 @@
-<script setup>
-const { data: posts } = await useAsyncData("posts", () =>
-  queryContent("/blog").find()
-);
-</script>
+<script setup></script>
 
 <template>
   <Navigation />
@@ -13,9 +9,5 @@ const { data: posts } = await useAsyncData("posts", () =>
     that interests me. If you would like me to write about something or be a
     guest blogger on your blog please reach out to me on Twitter. If you would
     like to subscribe to an RSS feed you can find it here.
-
-    <section class="grid md:grid-cols-3 mt-8 gap-10">
-      <Post :posts="posts" />
-    </section>
   </section>
 </template>

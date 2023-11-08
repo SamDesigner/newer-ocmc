@@ -30,22 +30,7 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ["@nuxtjs/tailwindcss", "@nuxt/content"],
-
-  content: {
-    highlight: {
-      theme: "nord",
-      preload: ["ts", "js", "css", "java", "json", "bash", "vue"],
-    },
-  },
-
-  apollo: {
-    clients: {
-      default: {
-        httpEndpoint: "https://api.github.com/graphql",
-      },
-    },
-  },
+  modules: ["@nuxtjs/tailwindcss"],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},

@@ -1,8 +1,3 @@
-<script setup>
-const { data: posts } = await useAsyncData("latest-posts", () =>
-  queryContent("/blog").sort({ data: 1 }).limit(3).find()
-);
-</script>
 <template>
   <section
     id="body"
@@ -15,10 +10,6 @@ const { data: posts } = await useAsyncData("latest-posts", () =>
       a guest blogger on your blog please reach out to me on Twitter. If you
       would like to subscribe to an RSS feed you can find it here.
     </p>
-
-    <section class="grid md:grid-cols-3 mt-8 gap-10">
-      <Post :posts="posts" />
-    </section>
 
     <div class="text-center mt-10">
       <nuxt-link
