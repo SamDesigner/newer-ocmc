@@ -1,6 +1,6 @@
 
 import { updateAppConfig } from '#app'
-import { defuFn } from 'C:/Users/olabo/Documents/new_ocmc/node_modules/defu/dist/defu.mjs'
+import { defuFn } from 'C:/Users/user/Documents/Web Dev/TGPC/new-ocmc/node_modules/defu/dist/defu.mjs'
 
 const inlineConfig = {
   "nuxt": {
