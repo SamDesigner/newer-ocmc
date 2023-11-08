@@ -1,13 +1,13 @@
 <template>
-    <div class="max-w-[1440px] mx-auto py-[122px] px-[64px] flex flex-col gap-[80px]">
-        <div class="md:w-[778px] flex flex-col gap-[32px] "> 
+    <div class="max-w-[1440px] mx-auto py-[64px] md:py-[122px]  px-[20px] lg:px-[64px] flex flex-col gap-[80px]">
+        <div class="lg:w-[778px] flex flex-col gap-[32px] "> 
             <div class="border-y border-lightBlue pt-[18px] pb-[16px]">
                 <h1 class="text-coolGray text-[48px] font-[400] leading-[57px]">Get in Touch</h1>
             </div>
             <p class="text-coolerGray font-[300] text-[16px]">Contact us for more information or a quote</p>
         </div>
 
-        <div class="grid grid-cols-3">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-[40px] lg:grid-cols-3">
             <div class="flex flex-col gap-[20px]">
                 <div>
                     <img src="/svg/mail-icon.svg" />

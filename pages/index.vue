@@ -24,7 +24,8 @@
         <Ad />
        <AboutSection />
        <Insights />
-       <Contact />
+       <Contact /> 
+        <Footer />
     </div>
  
 </template>

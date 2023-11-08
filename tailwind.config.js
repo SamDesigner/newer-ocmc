@@ -17,7 +17,10 @@ module.exports = {
           tabGray:'#7D89B0',
           brightBlue:'#00359E',
           darkerBlue:'#026',
-          darkerGray:'#101828'
+          darkerGray:'#101828',
+          footerDark:'#111322',
+          dullText:'#B9C0D4',
+          lightGrayBg:'#F9F9FB'
       },
     
     },
