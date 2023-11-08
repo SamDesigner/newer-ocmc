@@ -2,7 +2,7 @@
     <div class="max-w-[1440px] mx-auto bg-darkblue">
         <div class="bg-darkBlue">
             <div class="bg-basicGray rounded-tr-[40px] rounded-tl-[40px]  lg:rounded-tr-[120px] lg:rounded-tl-[120px] flex flex-col gap-[80px]  py-[112px] px-[16px] lg:px-[64px]">
-                <div class="md:w-[768px] flex flex-col gap-[32px] items-start">
+                <div class="lg:w-[768px] flex flex-col gap-[32px] items-start">
                     <div class="flex gap-[8px] items-center">
                         <img src="/svg/yellow_dot.svg" />
                         <span>Insights</span>
