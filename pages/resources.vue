@@ -6,6 +6,7 @@
     <Books />
     <Videos />
     <CTA />
+    <Footer />
   </div>
 </template>
 

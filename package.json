@@ -21,6 +21,8 @@
   "dependencies": {
     "@nuxtjs/sanity": "^1.8.1",
     "@pinia/nuxt": "^0.4.11",
+    "@portabletext/vue": "^1.0.6",
+    "@sanity/client": "^6.7.1",
     "@sanity/image-url": "^1.0.2",
     "aos": "^2.3.4",
     "axios": "^1.5.1",
@@ -35,6 +37,7 @@
     "scrollreveal": "^4.0.9",
     "sweetalert2": "^11.7.32",
     "vue-country-region-select": "^2.0.16",
+    "vue-router": "^4.2.5",
     "vue-slick-carousel": "^1.0.6",
     "vue-sweetalert2": "^5.0.5",
     "vue3-carousel-nuxt": "^1.1.0",
