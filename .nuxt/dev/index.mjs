@@ -61,7 +61,19 @@ const _inlineRuntimeConfig = {
       }
     }
   },
-  "public": {}
+  "public": {
+    "sanity": {
+      "useCdn": false,
+      "projectId": "21i3l8sn",
+      "dataset": "production",
+      "apiVersion": "2023-11-08",
+      "withCredentials": false,
+      "token": "",
+      "perspective": "raw",
+      "additionalClients": {}
+    }
+  },
+  "sanity": {}
 };
 const ENV_PREFIX = "NITRO_";
 const ENV_PREFIX_ALT = _inlineRuntimeConfig.nitro.envPrefix ?? process.env.NITRO_ENV_PREFIX ?? "_";

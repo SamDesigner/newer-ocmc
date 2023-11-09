@@ -30,7 +30,12 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ["@nuxtjs/tailwindcss"],
+  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/sanity"],
+  
+  sanity: {
+    projectId: "21i3l8sn",
+		apiVersion: '2023-11-08'
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
