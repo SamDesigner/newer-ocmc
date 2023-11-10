@@ -2,7 +2,9 @@
   <section
     class="md:px-16 px-5 bg-basicGray py-20 text-coolerGray rounded-b-[4rem]"
   >
-    <div class="flex items-start justify-between">
+    <div
+      class="flex md:flex-row flex-col md:space-y-0 space-y-10 items-start justify-between"
+    >
       <div class="space-y-5">
         <p class="text-primaryBlue">Our blog</p>
         <p class="text-3xl telegra">Latest blog posts</p>

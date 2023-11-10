@@ -2,7 +2,7 @@
   <main>
     <Navigation />
     <section class="md:mt-20 mt-5">
-      <div class="space-y-5 text-center">
+      <div class="space-y-5 text-center max-w-6xl md:px-0 px-4 mx-auto">
         <p class="text-primaryBlue">Published at {{ post.publishedAt }}</p>
         <p class="font-semibold text-4xl">{{ post.title }}</p>
         <p class="">{{ post.subtitle }}</p>
@@ -10,11 +10,13 @@
           :src="$urlFor(post.mainImage).url()"
           :alt="post.slug"
           loading="lazy"
-          class="md:max-w-6xl mx-auto"
+          class="mx-auto"
         />
       </div>
 
-      <section class="max-w-2xl my-10 mx-auto text-lg space-y-10 text-justify">
+      <section
+        class="md:max-w-2xl md:px-0 px-5 my-10 mx-auto text-lg space-y-10 text-justify"
+      >
         <div class="space-y-5">
           <PortableText :value="post.introduction" :components="components" />
         </div>
@@ -33,11 +35,13 @@
           loading="lazy"
           class="rounded-xl"
         />
-        <div class="space-y-5 bg-gray-100 rounded-md p-5 px-10">
+        <div class="space-y-5 bg-gray-100 rounded-md p-5 md:px-10">
           <PortableText :value="post.conclusion" :components="components" />
         </div>
         <hr />
-        <div class="flex items-center justify-between">
+        <div
+          class="flex md:flex-row flex-col md:items-center justify-between md:space-y-0 space-y-3"
+        >
           <div class="flex items-center space-x-2">
             <img
               :src="$urlFor(post.author_image).url()"

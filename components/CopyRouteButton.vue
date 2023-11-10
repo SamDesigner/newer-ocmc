@@ -2,7 +2,7 @@
   <div>
     <button
       @click="copyRoute"
-      class="text-sm border border-[#7D89B0] rounded-md px-5 py-2 hover:bg-[#7D89B0]/25"
+      class="md:text-sm text-xs border border-[#7D89B0] rounded-md px-5 py-2 hover:bg-[#7D89B0]/25"
     >
       <i class="pi pi-copy pr-2"></i>{{ buttonText }}
     </button>

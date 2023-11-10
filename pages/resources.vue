@@ -2,7 +2,6 @@
   <div>
     <Navigation />
     <News />
-    <BlogPost />
     <Books />
     <Videos />
     <CTA />
