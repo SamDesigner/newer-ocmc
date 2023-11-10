@@ -8,17 +8,31 @@
         <img src="/svg/logo.svg" />
       </div>
 
-      <div class="hidden md:flex gap-[32px]">
-        <nuxt-link to="/about" class="text-[16px]">About Us</nuxt-link>
-        <nuxt-link
-          to="/services"
-          class="text-[16px] flex items-center gap-[4px]"
-        >
-          Services
-          <span class="pi pi-angle-down"></span>
-        </nuxt-link>
-        <nuxt-link to="/resources" class="text-[16px]">Resources</nuxt-link>
-      </div>
+            <div class="hidden md:flex gap-[32px]">
+                <Nuxt-link to="/about"  class="text-[16px]">About Us</Nuxt-link>
+                <div>
+                    <Nuxt-link to="#"   class="text-[16px] flex items-center gap-[4px]"  @mouseover="openDropdown" @mouseleave="closeDropdown">
+                        Services
+                        <span class="pi pi-angle-down"></span>
+                    </Nuxt-link>
+                    <DropDown v-show="nowOpen" class="" />
+                </div>
+               
+                <Nuxt-link to="/resources"  class="text-[16px]">Resources</Nuxt-link>
+               
+            </div>  
+
+            <div class="hidden md:block">
+                
+                <button class="text-white bg-primaryBlue hover:bg-blue-500 py-[14px] px-[32px] rounded-[1000px] ">
+                    Get in touch 
+                    <span><i class="pi pi-arrow-up-right"></i></span>
+                </button>
+            </div>
+            <div class="md:hidden">
+                <img src="/svg/hamburger.svg" />
+            </div>
+        </div>
 
       <div class="hidden md:block">
         <button
@@ -36,15 +50,16 @@
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      isFixed: false,
-      isOpen: false,
-    };
-  },
-  mounted() {
-    const scrollThreshold = 40;
+    export default{
+        data(){
+            return{
+                isFixed:false,
+                isOpen:false,
+                nowOpen:true
+            }
+        },
+        mounted(){
+            const scrollThreshold = 40;
 
     window.addEventListener("scroll", this.handleScroll);
 
@@ -59,17 +74,23 @@ export default {
       const scrollThreshold = 240;
       this.isFixed = scrollY >= scrollThreshold;
 
-      if (scrollY >= scrollThreshold) {
-        this.isFixed = true;
-      } else {
-        this.isFixed = false;
-      }
-    },
-    handleIsOpen() {
-      this.isOpen = !this.isOpen;
-    },
-  },
-};
+                if (scrollY >= scrollThreshold) {
+                    this.isFixed = true;
+                } else {
+                    this.isFixed = false;
+                }
+            },
+            openDropdown() {
+                this.isOpen = true;
+            },
+            closeDropdown() {
+                    this.isOpen = false;
+            },
+            handleIsOpen(){
+                this.isOpen = !this.isOpen
+            }
+        }
+    }
 </script>
 
 <style scoped>
