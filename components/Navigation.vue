@@ -1,30 +1,23 @@
 <template>
-  <div
-    class="max-w-[1440px] mx-auto px-[20px] md:px-[64px] text-baseBlack h-[100px] flex items-center justify-center"
-    :class="{ 'fixed-navbar': isFixed }"
-  >
-    <div class="flex justify-between items-center mx-auto w-[1440px]">
-      <div>
-        <img src="/svg/logo.svg" />
-      </div>
-      <div>
-        <div class="hidden md:flex gap-[32px]">
-          <Nuxt-link to="/about" class="text-[16px]">About Us</Nuxt-link>
-          <div>
-            <Nuxt-link
-              to="#"
-              class="text-[16px] flex items-center gap-[4px]"
-              @mouseover="openDropdown"
-              @mouseleave="closeDropdown"
-            >
-              Services
-              <span class="pi pi-angle-down"></span>
-            </Nuxt-link>
-            <DropDown v-show="nowOpen" class="" />
-          </div>
+    <div class="max-w-[1440px] mx-auto px-[20px] md:px-[64px] text-baseBlack h-[100px] flex items-center justify-center" :class="{'fixed-navbar' : isFixed}">
+        <div class="flex justify-between items-center mx-auto w-[1440px] ">
+            <div>
+                <img src="/svg/logo.svg" />
+            </div>
 
-          <Nuxt-link to="/resources" class="text-[16px]">Resources</Nuxt-link>
-        </div>
+            <div class="hidden md:flex gap-[32px]">
+                <Nuxt-link to="/about"  class="text-[16px]">About Us</Nuxt-link>
+                <div @mouseover="openDropdown" absolute @mouseleave="closeDropdown">
+                    <Nuxt-link to="#"   class="text-[16px] flex items-center gap-[4px]"  >
+                        Services
+                        <span class="pi pi-angle-down"></span>
+                    </Nuxt-link>
+                    <DropDown v-show="nowOpen" class="" />
+                </div>
+               
+                <Nuxt-link to="/resources"  class="text-[16px]">Resources</Nuxt-link>
+               
+            </div>  
 
         <div class="hidden md:block">
           <button
@@ -55,16 +48,16 @@
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      isFixed: false,
-      isOpen: false,
-      nowOpen: true,
-    };
-  },
-  mounted() {
-    const scrollThreshold = 40;
+    export default{
+        data(){
+            return{
+                isFixed:false,
+                isOpen:false,
+                nowOpen:false
+            }
+        },
+        mounted(){
+            const scrollThreshold = 40;
 
     window.addEventListener("scroll", this.handleScroll);
 
@@ -79,23 +72,23 @@ export default {
       const scrollThreshold = 240;
       this.isFixed = scrollY >= scrollThreshold;
 
-      if (scrollY >= scrollThreshold) {
-        this.isFixed = true;
-      } else {
-        this.isFixed = false;
-      }
-    },
-    openDropdown() {
-      this.isOpen = true;
-    },
-    closeDropdown() {
-      this.isOpen = false;
-    },
-    handleIsOpen() {
-      this.isOpen = !this.isOpen;
-    },
-  },
-};
+                if (scrollY >= scrollThreshold) {
+                    this.isFixed = true;
+                } else {
+                    this.isFixed = false;
+                }
+            },
+            openDropdown() {
+                this.nowOpen = true;
+            },
+            closeDropdown() {
+                    this.nowOpen = false;
+            },
+            handleIsOpen(){
+                this.isOpen = !this.isOpen
+            }
+        }
+    }
 </script>
 
 <style scoped>
