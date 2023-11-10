@@ -4,7 +4,9 @@
             <div class="h-full flex flex-col justify-center md:justify-start">
                 <div class="text-white flex flex-col  gap-[24px] px-[20px] md:px-[64px] md:pt-[160px] ">
                     <div class="lg:w-[728px] border-t border-b border-white">
-                        <h1 class="  telegraf text-[40px] md:text-[56px] py-[8px] font-[400] leading-[67.2px]">
+                        <h1 
+                        
+                        class="  telegraf text-[40px] md:text-[56px] py-[8px] font-[400] leading-[67.2px]">
                             <span class="text-primaryYellow">Top Tier</span>
                             <br>
                             Procurement Services

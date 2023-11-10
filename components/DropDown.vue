@@ -12,13 +12,13 @@
                 </Nuxt-link>
             </li>
             <li class="py-[10px] ">
-                <Nuxt-link to="/resources" class=" hover:text-primaryBlue">
-                    
+                <Nuxt-link to="/services" class=" hover:text-primaryBlue">
+                    Services
                 </Nuxt-link>
             </li>
             <li class="py-[10px]">
-                <Nuxt-link to="/resources" class=" hover:text-primaryBlue">
-                   
+                <Nuxt-link to="/portal" class=" hover:text-primaryBlue">
+                    HSCT Portal
                 </Nuxt-link>
             </li>
         </ul>

@@ -15,7 +15,12 @@
             </div>
             <div class="flex justify-center">
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[48px] md:gap-[32px] ">
-                    <div class="w-[304px] flex flex-col gap-[24px]">
+                    <div 
+                    data-aos="fade-zoom-in"
+                    data-aos-easing="ease-in-back"
+                    data-aos-delay="300"
+                    data-aos-offset="0"
+                    class="w-[304px] flex flex-col gap-[24px]">
                         <div class="w-full h-[296px]" >
                             <img class="w-full h-full rounded-[1000px]" src="/img/chinye.png" />
                         </div>
@@ -25,43 +30,65 @@
                         </div>
                 
                     </div>
-                    <div class="w-[304px] flex flex-col gap-[24px]">
+                    <div 
+                    data-aos="fade-zoom-in"
+                    data-aos-easing="ease-in-back"
+                    data-aos-delay="400"
+                    data-aos-offset="0"
+                    class="w-[304px] flex flex-col gap-[24px]">
                         <div class="w-full h-[296px]" >
                             <img class="w-full h-full rounded-[1000px]" src="/img/exco2.png" />
                         </div>
                         <div >
-                            <h3 class="text-[20px] font-[600] leading-[30px] text-center">Chinye Okonkwo</h3>
-                            <p class="text-coolerGray text-center">CEO</p>
+                            <h3 class="text-[20px] font-[600] leading-[30px] text-center">Edwina Nwaogu</h3>
+                            <p class="text-coolerGray text-center">Senior Management Consultant Expertise</p>
                         </div>
                 
                     </div>
-                    <div class="w-[304px] flex flex-col gap-[24px]">
+                    <div 
+                    data-aos="fade-zoom-in"
+                    data-aos-easing="ease-in-back"
+                    data-aos-delay="500"
+                    data-aos-offset="0"
+                    class="w-[304px] flex flex-col gap-[24px]">
                         <div class="w-full h-[296px]" >
                             <img class="w-full h-full rounded-[1000px]" src="/img/exco3.png" />
                         </div>
                         <div >
-                            <h3 class="text-[20px] font-[600] leading-[30px] text-center">Chinye Okonkwo</h3>
-                            <p class="text-coolerGray text-center">CEO</p>
+                            <h3 class="text-[20px] font-[600] leading-[30px] text-center">Peju Akinlude</h3>
+                            <p class="text-coolerGray text-center">
+                                Consulting Advisor on Mental Health, Specialist Training and Social Care Legislation
+                            </p>
                         </div>
                 
                     </div>
-                    <div class="w-[304px] flex flex-col gap-[24px]">
+                    <div 
+                    data-aos="fade-zoom-in"
+                    data-aos-easing="ease-in-back"
+                    data-aos-delay="500"
+                    data-aos-offset="0"
+                    class="w-[304px] flex flex-col gap-[24px]">
                         <div class="w-full h-[296px]" >
                             <img class="w-full h-full rounded-[1000px]" src="/img/exco4.png" />
                         </div>
                         <div >
-                            <h3 class="text-[20px] font-[600] leading-[30px] text-center">Chinye Okonkwo</h3>
-                            <p class="text-coolerGray text-center">CEO</p>
+                            <h3 class="text-[20px] font-[600] leading-[30px] text-center">Dudley Sawyerr</h3>
+                            <p class="text-coolerGray text-center">Diversity, Equity, and Inclusion Expert Advisor</p>
                         </div>
                 
                     </div>
-                    <div class="w-[304px] flex flex-col gap-[24px]">
+                    <div 
+                    data-aos="fade-zoom-in"
+                    data-aos-easing="ease-in-back"
+                    data-aos-delay="300"
+                    data-aos-offset="0"
+                    class="w-[304px] flex flex-col gap-[24px]">
                         <div class="w-full h-[296px]" >
                             <img class="w-full h-full rounded-[1000px]" src="/img/exco5.png" />
                         </div>
                         <div >
                             <h3 class="text-[20px] font-[600] leading-[30px] text-center">Chinye Okonkwo</h3>
-                            <p class="text-coolerGray text-center">CEO</p>
+                            <p class="text-coolerGray text-center">Senior Strategy Consultant</p>
                         </div>
                 
                     </div>
