@@ -2,11 +2,20 @@
     <div class="bg-grayBg">
         <div class="max-w-[1440px] mx-auto py-[32px] lg:py-[112px] px-[20px] lg:px-[64px] ">
             <div class="flex flex-col  md:flex-row  lg:items-center gap-[80px]">
-                <div class="h-[348px] lg:h-[616px]">
+                <div 
+                data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="700"
+                data-aos-offset="0"
+                class="h-[348px] lg:h-[616px]">
                     <img class="rounded-[1000px] object_fit" :src="imageUrl" />
                 </div>
 
-                <div class="md:w-[616px] flex flex-col gap-[8px] md:gap-[24px]">
+                <div 
+                data-aos="fade-left"
+               
+                
+                class="md:w-[616px] flex flex-col gap-[8px] md:gap-[24px]">
                     <div class="flex gap-[8px] ">
                         <img src="/svg/ellipse.svg" />
                         <h4 class="text-coolerGray text-[16px] font-[400] leading-[24px]">Sectors we serve</h4>

@@ -1,6 +1,6 @@
 <template>
-    <div class="max-w-[1440px] mx-auto px-[20px] py-[112px]">
-        <div class="flex gap-[80px]">
+    <div class="max-w-[1440px] mx-auto px-[20px] py-[112px] bg-basicGray rounded-br-[120px] rounded-bl-[120px]">
+        <div class="flex flex-col lg:flex-row gap-[80px]">
             <div class="flex-1 flex flex-col gap-[32px]">
                 <div class="flex flex-col gap-[16px]">
                     <h1 class="text-[48px] font-[400] leading-[57px] telegraf">Apply For Public Contracts With Ease</h1>
@@ -10,7 +10,7 @@
                 </div>
                
 
-                <div class="flex ">
+                <div class="flex flex-col gap-[24px] md:flex-row ">
                     <div class="flex-1 flex flex-col gap-[16px]">
                         <div>
                             <img src="/svg/google_icon.svg" />
@@ -35,7 +35,7 @@
                     </button>
                </Nuxt-link>
             </div>
-            <div class="flex-1">
+            <div class="flex-1 flex justify-center">
                     <img src="/img/overall.png" />
             </div>
         </div>

@@ -27,7 +27,7 @@
                     </div>
                     <div class="w-[304px] flex flex-col gap-[24px]">
                         <div class="w-full h-[296px]" >
-                            <img class="w-full h-full rounded-[1000px]" src="/img/chinye.png" />
+                            <img class="w-full h-full rounded-[1000px]" src="/img/exco2.png" />
                         </div>
                         <div >
                             <h3 class="text-[20px] font-[600] leading-[30px] text-center">Chinye Okonkwo</h3>
@@ -37,7 +37,7 @@
                     </div>
                     <div class="w-[304px] flex flex-col gap-[24px]">
                         <div class="w-full h-[296px]" >
-                            <img class="w-full h-full rounded-[1000px]" src="/img/chinye.png" />
+                            <img class="w-full h-full rounded-[1000px]" src="/img/exco3.png" />
                         </div>
                         <div >
                             <h3 class="text-[20px] font-[600] leading-[30px] text-center">Chinye Okonkwo</h3>
@@ -47,7 +47,7 @@
                     </div>
                     <div class="w-[304px] flex flex-col gap-[24px]">
                         <div class="w-full h-[296px]" >
-                            <img class="w-full h-full rounded-[1000px]" src="/img/chinye.png" />
+                            <img class="w-full h-full rounded-[1000px]" src="/img/exco4.png" />
                         </div>
                         <div >
                             <h3 class="text-[20px] font-[600] leading-[30px] text-center">Chinye Okonkwo</h3>
@@ -57,7 +57,7 @@
                     </div>
                     <div class="w-[304px] flex flex-col gap-[24px]">
                         <div class="w-full h-[296px]" >
-                            <img class="w-full h-full rounded-[1000px]" src="/img/chinye.png" />
+                            <img class="w-full h-full rounded-[1000px]" src="/img/exco5.png" />
                         </div>
                         <div >
                             <h3 class="text-[20px] font-[600] leading-[30px] text-center">Chinye Okonkwo</h3>

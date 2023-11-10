@@ -1,6 +1,6 @@
 <template>
     <div>
-        <ul class="absolute bg-white shadow-xl  py-[20px] px-[20px] rounded-bl-[10px]  rounded-br-[10px]">
+        <ul class="absolute bg-white custom_index shadow-xl  py-[20px] px-[20px] rounded-bl-[10px]  rounded-br-[10px]">
             <li class="py-[10px] " >
                 <Nuxt-link to="/resources" class=" hover:text-primaryBlue">
                     Resources
@@ -24,3 +24,9 @@
         </ul>
     </div>
 </template>
+
+<style scoped>
+    .custom_index{
+        z-index:5000
+    }
+</style>

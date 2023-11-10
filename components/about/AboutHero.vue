@@ -1,10 +1,19 @@
 <template>
-    <div class="pt-[24px] max-w-[1440px] mx-auto px-[20px] bg-basicGray ">
+    <div 
+    data-aos="fade-up" 
+    data-aos-delay="300" 
+    data-aos-easing="ease-in-out-cubic"
+    class="pt-[24px] max-w-[1440px] mx-auto px-[20px] bg-basicGray ">
         <div class=" h-[812px] md:h-[720px] mx-auto hero_bg rounded-[40px] ">
             <div class="flex flex-col gap-[24px] justify-center h-full items-center">
                 <div class="text-white px-[20px] lg:w-[768px] flex flex-col justify-center items-center gap-[24px]">
                         <div class="border-y pt-[18px] pb-[16px]">
-                            <h1 class="text-[40px] lg:text-[56px] font-[400] leading-[67px] telegraf text-center">
+                            <h1 
+                            data-aos="fade-zoom-in"
+                            data-aos-easing="ease-in-back"
+                            data-aos-delay="900"
+                            data-aos-offset="0"
+                            class="text-[40px] lg:text-[56px] font-[400] leading-[67px] telegraf text-center">
                                 We are Your <span class="text-primaryYellow">Trusted Partner</span> at Winning and Thriving in Government Contract Opportunities.
                             </h1>
                         </div>

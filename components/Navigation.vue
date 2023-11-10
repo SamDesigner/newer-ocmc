@@ -4,18 +4,18 @@
     :class="{ 'fixed-navbar': isFixed }"
   >
     <div class="flex justify-between items-center mx-auto w-[1440px]">
-      <div>
+      <Nuxt-link to="/">
         <img src="/svg/logo.svg" />
-      </div>
+      </Nuxt-link>
 
       <div class="hidden md:flex gap-[32px]">
         <Nuxt-link to="/about" class="text-[16px]">About Us</Nuxt-link>
         <div @mouseover="openDropdown" absolute @mouseleave="closeDropdown">
-          <Nuxt-link to="#" class="text-[16px] flex items-center gap-[4px]">
+          <Nuxt-link  class=" text-[16px] flex items-center gap-[4px]">
             Services
             <span class="pi pi-angle-down"></span>
           </Nuxt-link>
-          <DropDown v-show="nowOpen" class="" />
+          <DropDown class="custom_index" v-show="nowOpen" />
         </div>
 
         <Nuxt-link to="/resources" class="text-[16px]">Resources</Nuxt-link>
@@ -104,4 +104,5 @@ export default {
 .router-link-exact-active {
   color: #2970ff;
 }
+
 </style>

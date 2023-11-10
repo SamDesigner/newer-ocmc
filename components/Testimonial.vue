@@ -1,10 +1,20 @@
 <template>
     <div class="max-w-[1440px] mx-auto pt-[112px] px-[20px] md:px-[64px]">
         <div class="bg-white  p-[40px] md:p-[56px] flex flex-col gap-[56px] border border-bottonBorder">
-            <p class="text-[20px] md:text-[24px] text-coolGray text-center leading-[33px]">
-                “OCMC has been instrumental in helping our healthcare company streamline operations and improve efficiency. Their expertise and dedication have made a significant impact on our bottom line.”
+            <p 
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="700"
+            data-aos-offset="0"
+            class="text-[20px] md:text-[24px] text-coolGray text-center leading-[33px]">
+                “From the interactions I have observed that, O C Management Consultants appears to be an exceptional business. Their customer service team is knowledgeable, responsive, and always willing to go the extra mile to ensure that their clients are satisfied. The services they offer are of high quality and are delivered in a timely manner. Furthermore, the company demonstrates a commitment to sustainability and ethical practices, which is admirable. Overall, I would highly recommend this company to anyone looking for a reliable and reputable business to work with.”
             </p>
-            <div class="flex items-center flex-col gap-[16px]">
+            <div 
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="900"
+            data-aos-offset="0"
+            class="flex items-center flex-col gap-[16px]">
                 <div class="w-[56px] h-[56px] rounded-[56px]">
                     <img class="h-full w-full" src="/svg/avatar.svg" />
                 </div>

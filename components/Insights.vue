@@ -8,10 +8,20 @@
                         <span>Insights</span>
                     </div>
                     <div class="border-y border-lightBlue pt-[18px] pb-[16px] flex align-self-stretch">
-                        <h1 class="text-coolGray telegraf leading-[120%] font-[400] text-[48px]">Stay Informed <span class="text-black">with OCMC</span></h1>
+                        <h1 
+                        data-aos="fade-zoom-in"
+                        data-aos-easing="ease-in-back"
+                        data-aos-delay="900"
+                        data-aos-offset="0"
+                        class="text-coolGray telegraf leading-[120%] font-[400] text-[48px]">Stay Informed <span class="text-black">with OCMC</span></h1>
                     </div>
             
-                    <p class="font-[300] text-[16px] leading-[24px] text-coolerGray">Gain insights for the Changing Landscape.</p>
+                    <p 
+                    data-aos="fade-zoom-in"
+                    data-aos-easing="ease-in-back"
+                    data-aos-delay="900"
+                    data-aos-offset="0"
+                    class="font-[300] text-[16px] leading-[24px] text-coolerGray">Gain insights for the Changing Landscape.</p>
                 </div>
                 <div class="flex flex-col gap-[32px]">
                     <div class="flex justify-end">
@@ -24,7 +34,10 @@
                     </div>
                     <div>
                         <div class="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-[32px]">
-                            <div class="bg-white shadow-md rounded-[16px]">
+                            <div 
+                            data-aos="flip-up"
+                            data-aos-delay="500"
+                            class="bg-white shadow-md rounded-[16px]">
                                 <div class="h-[300px] rounded-tr-[16px] rounded-tl-[16px]">
                                     <img class="h-full rounded-tr-[16px] rounded-tl-[16px]" src="/img/blog-1.png" />
                                 </div>
@@ -40,13 +53,16 @@
                                     
                                 </div>
                             </div>
-                            <div class="bg-white shadow-md rounded-[16px]">
+                            <div 
+                            data-aos="flip-up"
+                            data-aos-delay="700"
+                            class="bg-white shadow-md rounded-[16px]">
                                 <div class="h-[300px] rounded-tr-[16px] rounded-tl-[16px]">
-                                    <img class="h-full rounded-tr-[16px] rounded-tl-[16px]" src="/img/blog-1.png" />
+                                    <img class="h-full rounded-tr-[16px] rounded-tl-[16px]" src="/img/cqc_img.png" />
                                 </div>
                                 <div class="p-[24px] flex flex-col  align-self-stretch gap-[24px]">
-                                    <div class="bg-primaryBlue w-fit p-[8px] rounded-[2px]" >
-                                        <img src="/svg/article-icon.svg" />
+                                    <div class="" >
+                                        <img src="/svg/playy_icon.svg" />
                                     </div>
                                     <div class="flex flex-col  gap-[8px]">
                                         <h1 class="telegraf align-self-stretch w-full text-coolGray font-[400] text-[24px] leading-[33px]">The Importance of Outsourcing in Healthcare</h1>
@@ -56,13 +72,16 @@
                                     
                                 </div>
                             </div>
-                            <div class="bg-white shadow-md rounded-[16px]">
+                            <div 
+                            data-aos="flip-up"
+                            data-aos-delay="900"
+                            class="bg-white shadow-md rounded-[16px]">
                                 <div class="h-[300px] rounded-tr-[16px] rounded-tl-[16px]">
-                                    <img class="h-full rounded-tr-[16px] rounded-tl-[16px]" src="/img/blog-1.png" />
+                                    <img class="h-full rounded-tr-[16px] rounded-tl-[16px]" src="/img/book_cover.png" />
                                 </div>
                                 <div class="p-[24px] flex flex-col align-self-stretch gap-[24px]">
-                                    <div class="bg-primaryBlue w-fit p-[8px] rounded-[2px]" >
-                                        <img src="/svg/article-icon.svg" />
+                                    <div class="" >
+                                        <img src="/svg/book_icon.svg" />
                                     </div>
                                     <div class="flex flex-col  gap-[8px]">
                                         <h1 class="telegraf align-self-stretch w-full text-coolGray font-[400] text-[24px] leading-[33px]">The Importance of Outsourcing in Healthcare</h1>

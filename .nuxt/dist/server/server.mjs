@@ -1,1 +1,1 @@
-export { default } from "file:///C:/Users/user/Documents/Web%20Dev/TGPC/new-ocmc/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
+export { default } from "file:///C:/Users/olabo/Documents/new_ocmc/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"

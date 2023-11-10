@@ -3,12 +3,21 @@
         <div class="flex flex-col gap-[48px]">
             <div class="flex items-center justify-center">   
                 <div class="w-[768px] border-y border-lightBlue pt-[18px] pb-[16px]">
-                    <h1 class="telegraf text-[36px] md:text-[48px] text-coolGray text-center font-[400]">Streamline Your Operations with OCMC's Services</h1>
+                    <h1
+                    data-aos="fade-zoom-in"
+                    data-aos-easing="ease-in-back"
+                    data-aos-delay="700"
+                    data-aos-offset="0"
+                    class="telegraf text-[36px] md:text-[48px] text-coolGray text-center font-[400]">Streamline Your Operations with OCMC's Services</h1>
                 </div>
             </div>
           <div class="flex justify-center">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:flex gap-[48px] ">
-                <div class="w-[335px] lg:w-[405px] flex flex-col gap-[32px]">
+                <div 
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+                class="w-[335px] lg:w-[405px] flex flex-col gap-[32px]">
                     <div class="h-[335px] lg:h-[400px] overflow-hidden">
                         <img class="h-full rounded-[1000px] object_fit" src="/img/placeholder1.png" />
                     </div>
@@ -17,7 +26,11 @@
                         <p class="font-[16px] font-[300] leading-[24px] text-center text-coolGray">We guide clients through intricate regulatory processes, enabling their growth while maintaining compliance.</p>
                     </div>
                 </div>
-                <div class="w-[335px] lg:w-[405px] flex flex-col gap-[32px]">
+                <div 
+                data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+                class="w-[335px] lg:w-[405px] flex flex-col gap-[32px]">
                     <div class="h-[335px] lg:h-[400px] overflow-hidden">
                         <img class="h-full rounded-[1000px] object_fit" src="/img/placeholder2.png" />
                     </div>
@@ -28,7 +41,11 @@
                         </p>
                     </div>
                 </div>
-                <div class="w-[335px] lg:w-[405px] flex flex-col gap-[32px]">
+                <div 
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+                class="w-[335px] lg:w-[405px] flex flex-col gap-[32px]">
                     <div class="h-[335px] lg:h-[400px] overflow-hidden">
                         <img class="h-full rounded-[1000px] object_fit" src="/img/placeholder3.png" />
                     </div>
