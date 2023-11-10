@@ -7,10 +7,14 @@
 
             <div class="hidden md:flex gap-[32px]">
                 <Nuxt-link to="/about"  class="text-[16px]">About Us</Nuxt-link>
-                <Nuxt-link to="/services"  class="text-[16px] flex items-center gap-[4px]">
-                    Services
-                    <span class="pi pi-angle-down"></span>
-                </Nuxt-link>
+                <div>
+                    <Nuxt-link to="#"   class="text-[16px] flex items-center gap-[4px]"  @mouseover="openDropdown" @mouseleave="closeDropdown">
+                        Services
+                        <span class="pi pi-angle-down"></span>
+                    </Nuxt-link>
+                    <DropDown v-show="nowOpen" class="" />
+                </div>
+               
                 <Nuxt-link to="/resources"  class="text-[16px]">Resources</Nuxt-link>
                
             </div>  
@@ -35,7 +39,8 @@
         data(){
             return{
                 isFixed:false,
-                isOpen:false
+                isOpen:false,
+                nowOpen:true
             }
         },
         mounted(){
@@ -60,6 +65,12 @@
                 } else {
                     this.isFixed = false;
                 }
+            },
+            openDropdown() {
+                this.isOpen = true;
+            },
+            closeDropdown() {
+                    this.isOpen = false;
             },
             handleIsOpen(){
                 this.isOpen = !this.isOpen

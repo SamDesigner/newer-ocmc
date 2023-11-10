@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       colors:{
           baseBlack:'#000',
-          coolGray:'#30374F',
+          coolGray:'#30374F', 
           coolerGray:'#404968',
           grayBg:'#FCFCFD',
           primaryBlue:'#2970FF',
@@ -20,7 +20,11 @@ module.exports = {
           darkerGray:'#101828',
           footerDark:'#111322',
           dullText:'#B9C0D4',
-          lightGrayBg:'#F9F9FB'
+          lightGrayBg:'#F9F9FB',
+          skyBorder:'#B2DDFF',
+          inputBorder:'#D0D5DD',
+          specialGray:'#667085', 
+          newsBg:'#F9FAFB'
       },
     
     },
