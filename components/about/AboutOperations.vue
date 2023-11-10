@@ -1,6 +1,9 @@
 <template>
     <div class="max-w-[1440px] mx-auto px-[20px] lg:px-[64px] py-[64px] bg-basicGray md:py-[112px]">
-        <div class="flex flex-col gap-[24px]">
+        <div 
+        data-aos="fade-up"
+        data-aos-duration="3000"
+        class="flex flex-col gap-[24px]">
             <div class="lg:w-[880px] flex flex-col gap-[24px]">
                 <div class="border-y border-lightBlue pt-[18px] pb-[16px]">
                     <h1 class="text-[48px] font-[400] leading-[57px] telegraf text-coolGray">Improving Business Operations</h1>

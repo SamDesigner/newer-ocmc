@@ -4,17 +4,17 @@
 <template>
     <div>
         <Navigation />
-        <AboutHero />
-        <AboutOperations />
-        <AboutRegulatory />
-        <AboutVision />
-        <AboutOpportunities />
-        <AboutOutsourcing />
-        <AboutTeam />
+        <AboutHero class="overflow-x-hidden" />
+        <AboutOperations class="overflow-x-hidden" />
+        <AboutRegulatory class="overflow-x-hidden" />
+        <AboutVision class="overflow-x-hidden" />
+        <AboutOpportunities class="overflow-x-hidden" />
+        <!-- <AboutOutsourcing /> -->
+        <AboutTeam class="overflow-x-hidden" />
         <div class=" md:pb-[112px]">
-            <Testimonial />
+            <Testimonial class="overflow-x-hidden" />
         </div>
-       <AboutShowcase />
+       <AboutShowcase class="overflow-x-hidden" />
 
         <Footer />
     </div>

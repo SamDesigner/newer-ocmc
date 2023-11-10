@@ -2,7 +2,7 @@
     <div class="max-w-[1440px] mx-auto">
         <div class="py-[40px] md:py-[80px] lg:px-[64px]">
            <div class="scrolling-images">
-                <img class="fit_cover" src="img/company1.png" />
+                <img class="fit_cover" src="img/companyone.png" />
                 <img class="fit_cover" src="img/company2.png" />
                 <img class="fit_cover" src="img/company3.png" />
                 <img class="fit_cover" src="img/company4.png" />

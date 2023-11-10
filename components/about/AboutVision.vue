@@ -1,7 +1,10 @@
 <template>
     <div class="max-w-[1440px] mx-auto px-[40px] lg:px-[240px] flex flex-col justify-center items-center">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-[40px] ">
-            <div class="py-[24px] flex flex-col gap-[16px]">
+            <div 
+            data-aos="fade-right"
+            data-aos-duration="3000"
+            class="py-[24px] flex flex-col gap-[16px]">
                 <div>
                     <img src="/svg/mission.svg" />
                 </div>
@@ -15,7 +18,10 @@
             
                 <p class="text-[16px] font-[400] leading-[24px] text-coolerGray">Committed to excellence, we empower healthcare and social care organisations to achieve operational efficiency and gain a competitive edge with our top-tier services.</p>
             </div>
-            <div class="py-[24px] flex flex-col gap-[16px]">
+            <div
+            data-aos="fade-left"
+            data-aos-duration="3000"
+            class="py-[24px] flex flex-col gap-[16px]">
                 <div>
                     <img src="/svg/vision.svg" />
                 </div>
