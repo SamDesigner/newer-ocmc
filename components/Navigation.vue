@@ -7,8 +7,8 @@
 
             <div class="hidden md:flex gap-[32px]">
                 <Nuxt-link to="/about"  class="text-[16px]">About Us</Nuxt-link>
-                <div>
-                    <Nuxt-link to="#"   class="text-[16px] flex items-center gap-[4px]"  @mouseover="openDropdown" @mouseleave="closeDropdown">
+                <div @mouseover="openDropdown" absolute @mouseleave="closeDropdown">
+                    <Nuxt-link to="#"   class="text-[16px] flex items-center gap-[4px]"  >
                         Services
                         <span class="pi pi-angle-down"></span>
                     </Nuxt-link>
@@ -40,7 +40,7 @@
             return{
                 isFixed:false,
                 isOpen:false,
-                nowOpen:true
+                nowOpen:false
             }
         },
         mounted(){
@@ -67,10 +67,10 @@
                 }
             },
             openDropdown() {
-                this.isOpen = true;
+                this.nowOpen = true;
             },
             closeDropdown() {
-                    this.isOpen = false;
+                    this.nowOpen = false;
             },
             handleIsOpen(){
                 this.isOpen = !this.isOpen
