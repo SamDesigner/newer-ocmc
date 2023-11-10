@@ -27,7 +27,7 @@
         />
       </div>
       <Ad class="overflow-x-hidden" />
-      <Partners class="overflow-x-hidden" />
+      <!-- <Partners class="overflow-x-hidden" /> -->
       <AboutSection class="overflow-x-hidden" />
       <Insights class="overflow-x-hidden" />
       <Contact class="overflow-x-hidden" />
