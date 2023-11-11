@@ -16,6 +16,7 @@ type NuxtAppInjections =
   InjectionType<typeof import("../../node_modules/nuxt/dist/app/plugins/chunk-reload.client").default> &
   InjectionType<typeof import("../../node_modules/nuxt/dist/app/plugins/check-outdated-build.client").default> &
   InjectionType<typeof import("../../plugins/aos").default> &
+  InjectionType<typeof import("../../plugins/gsap").default> &
   InjectionType<typeof import("../../plugins/sanity-image-builder").default>
 
 declare module '#app' {

@@ -17,47 +17,58 @@
                 data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="1500"
-                class="w-[335px] lg:w-[405px] flex flex-col gap-[32px]">
-                    <div class="h-[335px] lg:h-[400px] overflow-hidden">
-                        <img class="h-full rounded-[1000px] object_fit" src="/img/placeholder1.png" />
-                    </div>
-                    <div>
-                        <h1 class="telegraf text-[24px] font-[400] leading-[33.6px] text-center text-coolGray">Growth and Diversification</h1>
-                        <p class="font-[16px] font-[300] leading-[24px] text-center text-coolGray">We guide clients through intricate regulatory processes, enabling their growth while maintaining compliance.</p>
-                    </div>
-                </div>
-                <div 
-                data-aos="fade-up"
-                data-aos-easing="linear"
-                data-aos-duration="1500"
-                class="w-[335px] lg:w-[405px] flex flex-col gap-[32px]">
-                    <div class="h-[335px] lg:h-[400px] overflow-hidden">
-                        <img class="h-full rounded-[1000px] object_fit" src="/img/placeholder2.png" />
-                    </div>
-                    <div>
-                        <h1 class="telegraf text-[24px] font-[400] leading-[33.6px] text-center text-coolGray">Public Contract Procurement</h1>
-                        <p class="font-[16px] font-[300] leading-[24px] text-center text-coolGray">
-                            We create guidance on public contract procurement enabling your organisation to make strategic decisions.
+                class="w-[335px] lg:w-[405px] pt-[56px] flex flex-col gap-[24px] ring_bg rounded-[64px]">
+                   <div class="flex flex-col px-[40px]">
+                        <h1 class="text-[24px] font-[400] leading-[33px] telegraf text-coolGray">Regulatory Compliance Consulting</h1>
+                        <p class="text-[16px] font-[300] leading-[24px] text-coolerGray">
+                            We guide clients through intricate regulatory processes, enabling their growth while maintaining compliance.
                         </p>
+                   </div>
+                    <div 
+                    data-aos="fade-left"
+                    data-aos-delay="300"
+                    class="h-[240px]">
+                        <img src="/img/standing.png" />
                     </div>
                 </div>
                 <div 
                 data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="1500"
-                class="w-[335px] lg:w-[405px] flex flex-col gap-[32px]">
-                    <div class="h-[335px] lg:h-[400px] overflow-hidden">
-                        <img class="h-full rounded-[1000px] object_fit" src="/img/placeholder3.png" />
-                    </div>
-                    <div>
-                        <h1 class="telegraf text-[24px] font-[400] leading-[33.6px] text-center text-coolGray">
-                            Flexible Tender Writing Solutions
-                        </h1>
-                        <p class="font-[16px] font-[300] leading-[24px] text-center text-coolGray">
-                            Whether you're bidding for a framework, DPS, mini competition, or service proposal, we have the flexible tender writing solutions to help you win.
+                class="w-[335px] lg:w-[405px] pt-[56px] flex flex-col justify-between gap-[24px] ring_bg rounded-[64px]">
+                   <div class="flex flex-col px-[40px]">
+                        <h1 class="text-[24px] font-[400] leading-[33px] telegraf text-coolGray">Public Contract Procurement</h1>
+                        <p class="text-[16px] font-[300] leading-[24px] text-coolerGray">
+                            We guide clients through intricate regulatory processes, enabling their growth while maintaining compliance.
                         </p>
+                   </div>
+                    <div 
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                    class="">
+                        <img class="rounded-br-[64px] rounded-bl-[64px]" src="/img/london.png" />
                     </div>
                 </div>
+                <div 
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+                class="w-[335px] lg:w-[405px] pt-[56px] flex flex-col gap-[24px] ring_bg rounded-[64px]">
+                   <div class="flex flex-col px-[40px]">
+                        <h1 class="text-[24px] font-[400] leading-[33px] telegraf text-coolGray">Regulatory Compliance Consulting</h1>
+                        <p class="text-[16px] font-[300] leading-[24px] text-coolerGray">
+                            We guide clients through intricate regulatory processes, enabling their growth while maintaining compliance.
+                        </p>
+                   </div>
+                    <div 
+                    data-aos="fade-right"
+                    data-aos-delay="300"
+                    class="h-[240px]">
+                        <img src="/img/writer.png" />
+                    </div>
+                </div>
+              
+
             </div>
           </div>
             
@@ -77,5 +88,10 @@
     }
     .object_fit{
         object-fit: cover;
+    }
+    .ring_bg{
+        background:url('/svg/ring_icon.svg') no-repeat;
+        background-position:left;
+        background-color: #F9F9FB;
     }
 </style>

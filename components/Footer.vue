@@ -1,5 +1,6 @@
 <template>
-    <div class="max-w-[1440px] mx-auto bg-footerDark px-[20px] lg:px-[64px] pt-[112px]">
+    <div class="bg-footerDark">
+    <div class="  max-w-[1440px] mx-auto px-[20px] lg:px-[64px] pt-[112px]">
         <div class="flex flex-col gap-[64px]">
             <div class="text-white gap-[48px]  flex flex-col md:flex-row justify-between items-center">
                 <div>
@@ -7,12 +8,12 @@
                 </div>
                 <div>
                     <ul class="flex flex-col md:flex-row items-center gap-[16px] md:gap-[32px]">
-                        <li><Nuxt-link to="">About</Nuxt-link></li>
-                        <li><Nuxt-link class="flex items-center gap-[8px]" to="">
+                        <li><Nuxt-link to="/about">About</Nuxt-link></li>
+                        <li><Nuxt-link class="flex items-center gap-[8px]" to="/services">
                             Services
                             <span><img src="/svg/service_badge.svg" /></span>
                         </Nuxt-link></li>
-                        <li><Nuxt-link to="">Resources</Nuxt-link></li>
+                        <li><Nuxt-link to="/resources">Resources</Nuxt-link></li>
                     </ul>
                 </div>
                 <div>
@@ -34,7 +35,7 @@
         </div>
       
     </div>
-
+    </div>
 </template>
 <script>
     export default{

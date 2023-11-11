@@ -2,7 +2,12 @@
     <div class="">
         <div class="rounded-[24px] border border-skyBorder bg-basicGray flex flex-col lg:flex-row items-center  ">
             <div class="flex-1 py-[24px] px-[24px] md:py-[64px] md:px-[48px] flex flex-col gap-[32px]">
-                <div class="flex flex-col gap-[24px]">
+                <div
+                data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="300"
+                data-aos-offset="0"
+                class="flex flex-col gap-[24px]">
                     <div class="flex flex-col gap-[12px]">
                         <p class="flex items-center gap-[8px] text-coolerGray ">
                             <span><img src="/svg/yellow_dot.svg" /></span>
@@ -19,7 +24,12 @@
                     </p>
                 </div>
 
-                <ul class="flex flex-col gap-[16px]">
+                <ul 
+                data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="400"
+                data-aos-offset="0"
+                class="flex flex-col gap-[16px]">
                     <li class="flex items-center gap-[16px] text-coolerGray">
                         <span>
                             <img :src="cube" />
@@ -40,7 +50,11 @@
                     </li>
                 </ul>
             </div>
-            <div class="w-[311px] h-[335px] md:w-[720px] md:h-[568px]  rounded-tr-[24px] rounded-br-[24px]">
+            <div 
+            data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            class="w-[311px] h-[335px] md:w-[720px] md:h-[568px]  rounded-tr-[24px] rounded-br-[24px]">
                 <img class="rounded-tl-[650px] rounded-bl-[650px] rounded-tr-[24px] rounded-br-[24px] h-full  " :src="imageUrl " />
             </div>
         </div>

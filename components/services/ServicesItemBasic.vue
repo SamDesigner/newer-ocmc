@@ -4,17 +4,32 @@
             <div class="flex-1 py-[24px] px-[24px] md:py-[64px] md:px-[48px] flex flex-col gap-[32px]">
                 <div class="flex flex-col gap-[24px]">
                     <div class="flex flex-col gap-[12px]">
-                        <p class="flex items-center gap-[8px] text-coolerGray ">
+                        <p 
+                        data-aos="fade-zoom-in"
+                        data-aos-easing="ease-in-back"
+                        data-aos-delay="300"
+                        data-aos-offset="0"
+                        class="flex items-center gap-[8px] text-coolerGray ">
                             <span><img src="/svg/yellow_dot.svg" /></span>
                             Our Services
                         </p>
 
                         <div class="border-y border-lightBlue pt-[18px] pb-[16px] ">
-                            <h1 class="font-[400] text-coolGray telegraf text-[32px] md:text-[40px] leading-[48px]">{{ header }}</h1>
+                            <h1 
+                            data-aos="fade-zoom-in"
+                            data-aos-easing="ease-in-back"
+                            data-aos-delay="400"
+                            data-aos-offset="0"
+                            class="font-[400] text-coolGray telegraf text-[32px] md:text-[40px] leading-[48px]">{{ header }}</h1>
                         </div>
                     </div>
 
-                    <p class="text-[16px] font-[400] text-coolerGray leading-[24px]">
+                    <p 
+                    data-aos="fade-zoom-in"
+                    data-aos-easing="ease-in-back"
+                    data-aos-delay="300"
+                    data-aos-offset="0"
+                    class="text-[16px] font-[400] text-coolerGray leading-[24px]">
                         {{ content }}
                     </p>
                 </div>
@@ -40,7 +55,11 @@
                     </li>
                 </ul> -->
             </div>
-            <div class="w-[311px] h-[335px] md:w-[720px] md:h-[568px]  rounded-tr-[24px] rounded-br-[24px]">
+            <div 
+            data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            class="w-[311px] h-[335px] md:w-[720px] md:h-[568px]  rounded-tr-[24px] rounded-br-[24px]">
                 <img class="rounded-tl-[650px] rounded-bl-[650px] rounded-tr-[24px] rounded-br-[24px] h-full  " :src="imageUrl " />
             </div>
         </div>

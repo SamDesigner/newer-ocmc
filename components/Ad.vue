@@ -1,6 +1,6 @@
 <template>
     <div class="max-w-[1440px] mx-auto py-[112px] px-[20px] lg:px-[64px]">
-        <div class="flex gap-[32px] flex-col-reverse lg:flex-row items-center">
+        <div class="flex gap-[32px] flex-col-reverse lg:flex-row items-end">
             <div 
             data-aos="fade-down-right"
 
@@ -10,9 +10,9 @@
                 </div>
                
                 <p class="font-[16px] font-[300] leading-[24px]">
-                    At OCMC, we understand the unique challenges faced by healthcare and social care companies. Our services are designed to help you overcome these challenges and achieve success.
+                    For most companies, public procurement might be a challenge, but not with us! At OCMC our services are tailored to meet your unique needs, ensuring your company stands out in the market.
                 </p>
-                <div class="grid lg:grid-cols-2 gap-[24px]">
+                <!-- <div class="grid lg:grid-cols-2 gap-[24px]">
                     <div 
                     data-aos="fade-right"
                     class="custom_shadow flex flex-col gap-[16px] rounded-[12px] p-[24px]">
@@ -31,14 +31,23 @@
                         <h3 class="text-coolGray text-[20px] font-[400] telegraf">Regulatory Assurance</h3>
                         <p class="font-[300] font-[16px] leading-[24px] lg:w-[248px] self-stretch ">Rely on our compliance expertise for seamless adherence to regulations, leaving you worry free.</p>
                     </div>
-                </div>
+                </div> -->
               
             </div>
             <div 
             data-aos="zoom-in-up"
-            class="flex-1">
-                <div class="w-[355px] lg:w-full">
-                     <img src="/img/ad_image.png" />
+            class="flex-1 flex gap-[24px]">
+                <div>
+                    <h3 class="text-[16px] text-coolerGray font-[300] leading-[24px] ">Clients Served:</h3>
+                    <h1 class="telegraf font-[400] leading-[96px] text-[80px] text-primaryBlue">
+                        45+
+                    </h1>
+                </div>
+                <div>
+                    <h3 class="text-[16px] text-coolerGray font-[300] leading-[24px] ">Tenders Written:</h3>
+                    <h1 class="telegraf font-[400] leading-[96px] text-[80px] text-primaryBlue">
+                       <CountSection />
+                    </h1>
                 </div>
             </div>
        

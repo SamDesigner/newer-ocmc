@@ -39,7 +39,7 @@
 
 <style scoped>
     .hero_bg{
-        background-image: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.3)) , url('/img/hero-bg.png')  ;
+        background-image: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.3)) , url('/img/new_bg.png')  ;
         background-position: center;
         background-size: cover;
     }

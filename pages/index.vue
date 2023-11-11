@@ -5,7 +5,7 @@
     <Operations class="overflow-x-hidden" />
    
     
-      <div>
+       <!--<div>
         <Sections
         class="overflow-x-hidden"
           imageUrl="/img/section_placeholder1.png"
@@ -25,10 +25,11 @@
           headerText="Transportation Services"
           text="Our solutions for the transportation sector help companies streamline their operations and improve efficiency. We understand the unique challenges of this industry and provide tailored services to ensure smooth and reliable transportation services.."
         />
-      </div>
+      </div> -->
+  
       <Ad class="overflow-x-hidden" />
-      <!-- <Partners class="overflow-x-hidden" /> -->
-      <AboutSection class="overflow-x-hidden" />
+      <Partners class="overflow-x-hidden" />
+      <!-- <AboutSection class="overflow-x-hidden" /> -->
       <Insights class="overflow-x-hidden" />
       <Contact class="overflow-x-hidden" />
       <Footer />

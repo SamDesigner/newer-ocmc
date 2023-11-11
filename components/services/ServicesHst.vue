@@ -2,7 +2,9 @@
     <div class="max-w-[1440px] py-[112px] px-[20px] lg:px-[64px]">
         <div class="flex flex-col lg:flex-row gap-[40px] lg:gap-[80px] items-center">
             <div class="flex-1">
-                <div class="flex flex-col gap-[24px]">
+                <div 
+                data-aos="fade-right"
+                class="flex flex-col gap-[24px]">
                     <div class="flex flex-col gap-[16px]">
                         <p class="flex items-center gap-[8px] text-coolerGray text-[16px] font-[400] leading-[24px] ">
                             <span>
@@ -24,7 +26,9 @@
                     </Nuxt-link>
                 </div>
             </div>
-            <div class="flex-1">
+            <div 
+            data-aos="fade-left"
+            class="flex-1">
                 <img class="h-[348px] md:h-[640px]"  src="/svg/hstc.svg" />
             </div>
         </div>

@@ -34,7 +34,7 @@
                     <img src="/svg/location_icon.svg" />
                 </div>
                 <div class="flex flex-col gap-[8px]">
-                    <h3 aria-valuemax="text-darkerGray font-[400] leading-[28px] telegraf text-[20px]">Email</h3>
+                    <h3 aria-valuemax="text-darkerGray font-[400] leading-[28px] telegraf text-[20px]">Office</h3>
                     <p class="text-[16px] font-[400] leading-[24px]">Come say hello at our office HQ.</p>
                 </div>
                 <Nuxt-link class="text-[16px] font-[400] leading-[24px] underline text-primaryBlue ">133 Benets Rd, Hornchurch RM11 3PT, UK</Nuxt-link>

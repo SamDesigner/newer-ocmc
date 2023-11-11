@@ -11,9 +11,10 @@
         <AboutOpportunities class="overflow-x-hidden" />
         <!-- <AboutOutsourcing /> -->
         <AboutTeam class="overflow-x-hidden" />
-        <div class=" md:pb-[112px]">
+        <!-- <div class=" md:pb-[112px]">
             <Testimonial class="overflow-x-hidden" />
-        </div>
+        </div> -->
+        <AboutFaq />
        <AboutShowcase class="overflow-x-hidden" />
 
         <Footer />

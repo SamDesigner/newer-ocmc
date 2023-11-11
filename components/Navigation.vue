@@ -1,6 +1,6 @@
 <template>
   <div
-    class="max-w-[1440px] mx-auto px-[20px] md:px-[64px] text-baseBlack h-[100px] flex items-center justify-center"
+    class=" px-[20px] md:px-[64px] text-baseBlack h-[100px] flex items-center justify-center"
     :class="{ 'fixed-navbar': isFixed }"
   >
     <div class="flex justify-between items-center mx-auto w-[1440px]">
@@ -22,12 +22,15 @@
       </div>
 
       <div class="hidden md:block">
-        <button
-          class="text-white bg-primaryBlue hover:bg-blue-500 py-[14px] px-[32px] rounded-[1000px]"
-        >
-          Get in touch
-          <span><i class="pi pi-arrow-up-right"></i></span>
-        </button>
+        <Nuxt-link to="/contact">
+            <button
+            class="text-white bg-primaryBlue hover:bg-blue-500 py-[14px] px-[32px] rounded-[1000px]"
+          >
+            Get in touch
+            <span><i class="pi pi-arrow-up-right"></i></span>
+          </button>
+        </Nuxt-link>
+
       </div>
       <div class="md:hidden">
         <img src="/svg/hamburger.svg" />

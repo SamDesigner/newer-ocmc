@@ -2,7 +2,7 @@
     <div class="max-w-[1440px] mx-auto  bg-white">
         <div class="py-[112px] px-[20px]  bg-lightGrayBg rounded-tr-[120px] rounded-tl-[120px] flex flex-col gap-[80px]">
             <div class="flex justify-center">
-                <div class="md:w-[768px] gap-[32px] flex flex-col items-center justify-center">
+                <div class=" gap-[32px] flex flex-col items-center justify-center">
                     <p class="flex items-center gap-[8px]">
                         <span><img src="/svg/yellow_dot.svg" /></span>
                         Experienced
@@ -20,9 +20,9 @@
                     data-aos-easing="ease-in-back"
                     data-aos-delay="300"
                     data-aos-offset="0"
-                    class="w-[304px] flex flex-col gap-[24px]">
+                    class="flex flex-col gap-[24px]">
                         <div class="w-full h-[296px]" >
-                            <img class="w-full h-full rounded-[1000px]" src="/img/chinye.png" />
+                            <img class="w-full h-full rounded-[1000px] img_fit" src="/img/chinye.png" />
                         </div>
                         <div >
                             <h3 class="text-[20px] font-[600] leading-[30px] text-center">Chinye Okonkwo</h3>
@@ -35,9 +35,9 @@
                     data-aos-easing="ease-in-back"
                     data-aos-delay="400"
                     data-aos-offset="0"
-                    class="w-[304px] flex flex-col gap-[24px]">
+                    class="flex flex-col gap-[24px]">
                         <div class="w-full h-[296px]" >
-                            <img class="w-full h-full rounded-[1000px]" src="/img/exco2.png" />
+                            <img class="w-full h-full rounded-[1000px] img_fit" src="/img/exco2.png" />
                         </div>
                         <div >
                             <h3 class="text-[20px] font-[600] leading-[30px] text-center">Edwina Nwaogu</h3>
@@ -50,9 +50,9 @@
                     data-aos-easing="ease-in-back"
                     data-aos-delay="500"
                     data-aos-offset="0"
-                    class="w-[304px] flex flex-col gap-[24px]">
+                    class="flex flex-col gap-[24px]">
                         <div class="w-full h-[296px]" >
-                            <img class="w-full h-full rounded-[1000px]" src="/img/exco3.png" />
+                            <img class="w-full h-full rounded-[1000px] img_fit" src="/img/exco3.png" />
                         </div>
                         <div >
                             <h3 class="text-[20px] font-[600] leading-[30px] text-center">Peju Akinlude</h3>
@@ -67,9 +67,9 @@
                     data-aos-easing="ease-in-back"
                     data-aos-delay="500"
                     data-aos-offset="0"
-                    class="w-[304px] flex flex-col gap-[24px]">
+                    class="flex flex-col gap-[24px]">
                         <div class="w-full h-[296px]" >
-                            <img class="w-full h-full rounded-[1000px]" src="/img/exco4.png" />
+                            <img class="w-full h-full rounded-[1000px] img_fit" src="/img/exco4.png" />
                         </div>
                         <div >
                             <h3 class="text-[20px] font-[600] leading-[30px] text-center">Dudley Sawyerr</h3>
@@ -82,9 +82,9 @@
                     data-aos-easing="ease-in-back"
                     data-aos-delay="300"
                     data-aos-offset="0"
-                    class="w-[304px] flex flex-col gap-[24px]">
+                    class="flex flex-col gap-[24px]">
                         <div class="w-full h-[296px]" >
-                            <img class="w-full h-full rounded-[1000px]" src="/img/exco5.png" />
+                            <img class="w-full h-full rounded-[1000px] img_fit" src="/img/exco5.png" />
                         </div>
                         <div >
                             <h3 class="text-[20px] font-[600] leading-[30px] text-center">Chinye Okonkwo</h3>
@@ -98,3 +98,9 @@
         </div>
     </div>
 </template>
+
+<style scoped>
+    .img_fit{
+        object-fit: cover;
+    }
+</style>

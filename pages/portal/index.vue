@@ -5,7 +5,7 @@
         <PortalContracts />
         <PortalDatabase />
         <PortalGuide />
-        <Testimonial />
+        <!-- <Testimonial /> -->
         <PortalAd />
         <Footer />
     </div>
