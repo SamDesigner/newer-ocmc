@@ -28,7 +28,7 @@
                     data-aos="fade-left"
                     data-aos-delay="300"
                     class="h-[240px]">
-                        <img src="/img/standing.png" />
+                        <img src="/img/firsthome.png" />
                     </div>
                 </div>
                 <div 
@@ -46,7 +46,7 @@
                     data-aos="fade-up"
                     data-aos-delay="300"
                     class="">
-                        <img class="rounded-br-[64px] rounded-bl-[64px]" src="/img/london.png" />
+                        <img class="rounded-br-[64px] rounded-bl-[64px]" src="/img/new_building.png" />
                     </div>
                 </div>
                 <div 

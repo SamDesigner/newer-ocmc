@@ -46,7 +46,7 @@
                 <div>
                     <h3 class="text-[16px] text-coolerGray font-[300] leading-[24px] ">Tenders Written:</h3>
                     <h1 class="telegraf font-[400] leading-[96px] text-[80px] text-primaryBlue">
-                       <CountSection />
+                        450-500
                     </h1>
                 </div>
             </div>

@@ -5,13 +5,20 @@
      
             <div class="flex justify-center">
                 <div class="lg:w-[768px]">
-                    <h1 class=" text-coolGray text-[40px] font-[400] leading-[48px] text-center telegraf">Comprehensive Database of Public <br> Contracts</h1>
+                    <h1 
+                    data-aos="fade-zoom-in"
+                    data-aos-easing="ease-in-back"
+                    data-aos-delay="900"
+                    data-aos-offset="0"
+                    class=" text-coolGray text-[40px] font-[400] leading-[48px] text-center telegraf">Comprehensive Database of Public <br> Contracts</h1>
                 </div>
 
             </div>
             <div class=" mx-auto grid grid-cols-1 md:grid-cols-2 lg:flex  justify-center gap-[48px]">
                 <div class="lg:w-[400px] flex flex-col gap-[16px] p-[24px] custom_shadow rounded-[12px]">
-                    <div class="flex justify-center">
+                    <div 
+                    data-aos="fade-up"
+                    class="flex justify-center">
                         <img src="/svg/google_icon.svg" />
                     </div>
                     <h3 class="text-[24px] text-center font-[400] telegraf leading-[33px]">
@@ -23,7 +30,9 @@
 
                 </div>
                 <div class="lg:w-[400px] flex flex-col gap-[16px] p-[24px] custom_shadow rounded-[12px]">
-                    <div class="flex justify-center">
+                    <div 
+                    data-aos="fade-up"
+                    class="flex justify-center">
                         <img src="/svg/folder_icon.svg" />
                     </div>
                     <h3 class="text-[24px] text-center font-[400] telegraf leading-[33px]">
