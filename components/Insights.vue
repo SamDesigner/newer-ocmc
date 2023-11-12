@@ -40,7 +40,7 @@
                 :class="{
                   'underline underline-offset-8 text-primaryBlue outline-none border-none':
                     selected,
-                  'bg-white text-black': !selected,
+                  'text-black': !selected,
                 }"
               >
                 Books
@@ -51,7 +51,7 @@
                 :class="{
                   'underline underline-offset-8 text-primaryBlue outline-none border-none':
                     selected,
-                  'bg-white text-black': !selected,
+                  'text-black': !selected,
                 }"
               >
                 Videos
@@ -62,7 +62,7 @@
                 :class="{
                   'underline underline-offset-8 text-primaryBlue outline-none border-none':
                     selected,
-                  'bg-white text-black': !selected,
+                  'text-black': !selected,
                 }"
               >
                 News
@@ -97,7 +97,7 @@
                     <img
                       :src="item.image"
                       alt="Book Image"
-                      class="rounded-full blur-[2px]"
+                      class="rounded-xl shadow blur-[2px]"
                     />
                     <p class="telegraf text-xl py-3 text-center">
                       {{ item.title }}
@@ -106,7 +106,35 @@
                 </div>
               </div>
             </TabPanel>
-            <TabPanel>Content 3</TabPanel>
+            <TabPanel>
+              <div class="grid md:grid-cols-3 gap-10 mt-10">
+                <div v-for="post in posts.slice(0, 3)" :key="post._id">
+                  <img
+                    :src="$urlFor(post.mainImage).url()"
+                    :alt="post.slug"
+                    loading="lazy"
+                    class="rounded-xl shadow"
+                  />
+                  <div
+                    class="flex items-center space-x-3 md:text-base text-sm my-5"
+                  >
+                    <p>{{ post.publishedAt }}</p>
+                    <div class="h-1.5 w-1.5 rounded-full bg-coolerGray"></div>
+                    <p>5 mins read</p>
+                  </div>
+                  <div class="space-y-3">
+                    <h2>
+                      <nuxt-link
+                        :to="'/blog/' + post.slug.current"
+                        v-text="post.title"
+                        class="text-lg font-semibold"
+                      ></nuxt-link>
+                    </h2>
+                    <p>{{ post.excerpt }}</p>
+                  </div>
+                </div>
+              </div>
+            </TabPanel>
             <!-- ... -->
           </TabPanels>
         </TabGroup>
@@ -150,4 +178,8 @@ const videos = ref([
     image: "/img/good-governance.png",
   },
 ]);
+
+const query = groq`*[_type == "post"]`;
+const data = useSanityQuery(query);
+const posts = data.data._rawValue || [];
 </script>

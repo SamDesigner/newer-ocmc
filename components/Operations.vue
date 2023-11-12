@@ -88,9 +88,9 @@
       </div>
 
       <div class="pt-[16px] flex justify-center">
-        <Nuxt-link to="/">
+        <nuxt-link to="/">
           <PrimaryBtn />
-        </Nuxt-link>
+        </nuxt-link>
       </div>
     </div>
   </div>

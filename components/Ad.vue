@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-[1440px] mx-auto py-[112px] px-[20px] lg:px-[64px]">
+  <div class="max-w-[1440px] mx-auto py-[112px] px-10 lg:px-[64px]">
     <div class="grid grid-cols-2 items-end">
       <div data-aos="fade-down-right" class="space-y-5">
         <div class="border-y border-lightBlue pt-[18px] pb-[16px]">

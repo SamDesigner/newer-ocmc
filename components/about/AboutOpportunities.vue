@@ -7,7 +7,7 @@
         <h1
           class="text-[40px] font-[400] telegraf text-coolGray leading-[48px]"
         >
-          Providing Exceptional Opportunities for Business Sectors
+          Providing Exceptional Opportunities for Business
         </h1>
       </div>
       <div
@@ -16,10 +16,9 @@
         class="flex-1 flex flex-col gap-[32px]"
       >
         <p class="text-[18px] font-[400] leading-[27px] text-collerGray">
-          At OCMC, we specialise in delivering a comprehensive range of bid
-          writing and compliance solutions to healthcare and social care
-          companies, prioritising cost reduction, efficiency improvement, and
-          gaining a competitive edge.
+          At OCMC, we specialise in delivering a comprehensive range of public
+          procurement solutions to obtain health, prioritising affordability,
+          Operational efficiency, and enhanced competitive advantage.
         </p>
         <div class="py-[8px] flex flex-col md:flex-row gap-[24px]">
           <div
@@ -33,8 +32,9 @@
               Why Choose Us?
             </h3>
             <p class="text-[16px] font-[400] leading-[24px] text-coolerGray">
-              We offer Increasing cost and operational efficiency, flexible
-              services and a distinct competitive advantage to name a few 
+              Our team of experienced professionals are committed to helping
+              clients achieve their public procurement goals  with solutions
+              tailored to suit your business needs.
             </p>
           </div>
           <div
@@ -48,8 +48,8 @@
               Our Approach
             </h3>
             <p class="text-[16px] font-[400] leading-[24px] text-coolerGray">
-              We provide independent contract and business solutions to meet the
-              unique needs of our clients.  
+              We ensure high quality services are accessible to small businesses
+              meeting their needs by maintaining constant communication. 
             </p>
           </div>
         </div>
@@ -77,19 +77,19 @@
       </div>
     </section>
 
-    <section class="md:max-w-3xl mx-auto">
+    <section class="md:max-w-4xl mx-auto">
       <div class="grid md:grid-cols-2 md:gap-20 gap-10">
-        <div class="space-y-7">
+        <div class="space-y-7 shadow rounded p-5">
           <div class="space-y-3">
             <img src="/svg/competitive-advantage.svg" alt="" />
             <h3 class="telegraf text-lg">Competitive Advantage</h3>
           </div>
           <p>
-             We provide top-tier services that provides you with a competitive
-            advantage ensuring your company  stands out in the market
+            We provide top-tier services that provides you with a competitive
+            advantage ensuring your company stands out in the market
           </p>
         </div>
-        <div class="space-y-7">
+        <div class="space-y-7 shadow rounded p-5">
           <div class="space-y-3">
             <img src="/svg/regulatory-assurance.svg" alt="" />
             <h3 class="telegraf text-lg">Regulatory Assurance</h3>

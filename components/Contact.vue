@@ -42,9 +42,9 @@
             Our friendly team is here to help
           </p>
         </div>
-        <Nuxt-link
+        <nuxt-link
           class="text-[16px] font-[400] leading-[24px] underline text-primaryBlue"
-          >hello@o.cmanagementconsultants.co.uk</Nuxt-link
+          >hello@o.cmanagementconsultants.co.uk</nuxt-link
         >
       </div>
       <div
@@ -55,7 +55,7 @@
         <div class="flex">
           <div class="flex bg-[#eff4ff] rounded-full p-3">
             <div class="bg-[#d1e0ff] flex p-3 rounded-full">
-              <i class="pi pi-phone text-primaryBlue text-2xl"></i>
+              <i class="pi pi-map-marker text-primaryBlue text-2xl"></i>
             </div>
           </div>
         </div>
@@ -69,9 +69,9 @@
             Come say hello at our office HQ.
           </p>
         </div>
-        <Nuxt-link
+        <nuxt-link
           class="text-[16px] font-[400] leading-[24px] underline text-primaryBlue"
-          >133 Benets Rd, Hornchurch RM11 3PT, UK</Nuxt-link
+          >133 Benets Rd, Hornchurch RM11 3PT, UK</nuxt-link
         >
       </div>
       <div
@@ -96,9 +96,9 @@
             Mon-Fri from 8am to 5pm.
           </p>
         </div>
-        <Nuxt-link
+        <nuxt-link
           class="text-[16px] font-[400] leading-[24px] underline text-primaryBlue"
-          >+44 7903094884</Nuxt-link
+          >+44 7903094884</nuxt-link
         >
       </div>
     </div>
