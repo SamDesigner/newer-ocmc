@@ -82,7 +82,7 @@
       </div>
       <nuxt-link to="/">
         <button
-          class="border border-black py-[12px] px-[24px] font-[16px] font-[400] leading-[24px]"
+          class="border border-black py-[12px] px-[24px] font-[400] leading-[24px]"
         >
           Button
         </button>
