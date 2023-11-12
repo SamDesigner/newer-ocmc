@@ -15,12 +15,10 @@
             data-aos-delay="500"
             data-aos-offset="0"
             class="flex items-center flex-col gap-[16px]">
-                <div class="w-[56px] h-[56px] rounded-[56px]">
-                    <img class="h-full w-full" src="/svg/avatar.svg" />
-                </div>
+           
                 <div class="text-center">
-                    <h1 class="text-darkerBlue text-[16px] font-[600] leading-[24px]">John Doe</h1>
-                    <p class="text-brightBlue text-[16px] font-[400] leading-[24px]">CEO, ABC Healthcare</p>
+                    <h1 class="text-darkerBlue text-[16px] font-[600] leading-[24px]">Micheal Okorie</h1>
+        
                 </div>
               
             </div>

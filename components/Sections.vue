@@ -8,7 +8,7 @@
                 data-aos-delay="700"
                 data-aos-offset="0"
                 class="h-[348px] lg:h-[616px]">
-                    <img class="rounded-[1000px] object_fit" :src="imageUrl" />
+                    <img class="object_fit" :src="imageUrl" />
                 </div>
 
                 <div 

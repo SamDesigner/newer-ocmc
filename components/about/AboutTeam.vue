@@ -91,7 +91,7 @@
                             <img class="w-full h-full rounded-[1000px] img_fit" src="/img/exco5.png" />
                         </div>
                         <div >
-                            <h3 class="text-[20px] font-[600] leading-[30px] text-center">Chinye Okonkwo</h3>
+                            <h3 class="text-[20px] font-[600] leading-[30px] text-center">Arindam Das</h3>
                             <p class="text-coolerGray text-center">Senior Strategy Consultant</p>
                         </div>
                 

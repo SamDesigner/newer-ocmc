@@ -35,8 +35,9 @@
                         <div>
                             <img src="/svg/handshake.svg" />
                         </div>
-                        <h3 class="text-coolGray text-[16px] telegraf ">Competitive Advantage</h3>
-                        <p classs="text-coolerGray text-[16px] font-[300] "> We provide top-tier services that provides you with a competitive advantage ensuring your company  stands out in the market</p>
+                        <h3 class="text-coolGray text-[16px] telegraf ">Regulatory Assurance</h3>
+                        <p classs="text-coolerGray text-[16px] font-[300] "> Rely on our compliance expertise for seamless adherence to regulations, leaving you worry free.
+                        </p>
                     </div>
                 
                 </div>

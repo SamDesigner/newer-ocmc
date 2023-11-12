@@ -12,7 +12,7 @@
          
             class="flex-1 flex flex-col gap-[32px]">
                 <p class="text-[18px] font-[400] leading-[27px] text-coolerGray">
-                    At OCMC, we specialise in delivering a comprehensive range of public procurement solutions to obtain health, prioritising affordability, Operational efficiency, and enhanced competitive advantage.
+                    OCMC has completed, we specialise in delivering a comprehensive range of public procurement solutions , prioritising affordability, Operational efficiency, and enhanced competitive advantage.
                 </p>
                 <div class="py-[8px] flex flex-col md:flex-row gap-[24px]">
                     <div 

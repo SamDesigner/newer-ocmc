@@ -25,8 +25,7 @@
                         </p>
                    </div>
                     <div 
-                    data-aos="fade-left"
-                    data-aos-delay="100"
+                 
                     class="h-[240px] rounded-bl-[64px]">
                         <img src="/img/first_card.png" />
                     </div>
@@ -43,17 +42,16 @@
                         </p>
                    </div>
                     <div 
-                    data-aos="fade-up"
-                    data-aos-delay="100"
+                   
                     class="">
-                        <img class="rounded-br-[64px] rounded-bl-[64px]" src="/img/second_card.png" />
+                        <img class="rounded-br-[64px] rounded-bl-[64px]" src="/img/newbuilding.png" />
                     </div>
                 </div>
                 <div 
                 data-aos="fade-up"
                 data-aos-easing="linear"
                 data-aos-duration="500"
-                class="w-[335px] lg:w-[405px] pt-[56px] flex flex-col gap-[24px] ring_bg rounded-tr-[64px] rounded-tl-[64px] rounded-br-[64px]">
+                class="w-[335px] lg:w-[405px] pt-[56px] flex flex-col justify-between itmes-end gap-[24px] ring_bg rounded-tr-[64px] rounded-tl-[64px] rounded-br-[64px]">
                    <div class="flex flex-col px-[40px]">
                         <h1 class="text-[24px] font-[400] leading-[33px] telegraf text-coolGray">Flexible Tender Writing Services</h1>
                         <p class="text-[16px] font-[300] leading-[24px] text-coolerGray">
@@ -61,10 +59,9 @@
                         </p>
                    </div>
                     <div 
-                    data-aos="fade-right"
-                    data-aos-delay="100"
+                 
                     class="h-[240px]">
-                        <img class="rounded-br-[64px]" src="/img/third_card.png" />
+                        <img class="rounded-br-[64px]" src="/svg/woman.svg" />
                     </div>
                 </div>
               

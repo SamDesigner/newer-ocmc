@@ -2,13 +2,13 @@
     <div class="max-w-[1440px] mx-auto">
         <div class="py-[40px] md:py-[80px] lg:px-[64px]">
            <div class="scrolling-images flex justify-between gap-[40px]">
-                <img class="object_fit h-[50px] flex-1" src="img/company-one.png" />
-                <img class="object_fit h-[50px] flex-1" src="img/company-two.png" />
-                <img class="object_fit h-[50px] flex-1" src="img/company-three.png" />
-                <img class="object_fit h-[50px] flex-1" src="img/company-four.png" />
-                <img class="object_fit h-[50px] flex-1" src="img/company-five.png" />
-                <img class="object_fit h-[50px] flex-1" src="img/company-six.png" />
-                <img class="object_fit h-[50px] flex-1" src="img/company-seven.png" />
+                <img class="object_fit h-[50px] flex-1" src="svg/relume.svg" />
+                <img class="object_fit h-[50px] flex-1" src="svg/Black.svg" />
+                <img class="object_fit h-[50px] flex-1" src="svg/hst.svg" />
+                <img class="object_fit h-[50px] flex-1" src="svg/ws.svg" />
+                <img class="object_fit h-[50px] flex-1" src="svg/treasure.svg" />
+                <img class="object_fit h-[50px] flex-1" src="svg/crystal.svg" />
+               
            </div> 
         </div>
     </div>
