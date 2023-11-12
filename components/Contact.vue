@@ -3,10 +3,10 @@
         <div class="lg:w-[778px] flex flex-col gap-[32px] "> 
             <div class="border-y border-lightBlue pt-[18px] pb-[16px]">
                 <h1 
-                data-aos="fade-zoom-in"
+                data-aos="fade-in"
                 data-aos-easing="ease-in-back"
-                data-aos-delay="700"
-                data-aos-offset="0"
+            
+                
                 class="text-coolGray text-[48px] font-[400] leading-[57px]">Get in Touch</h1>
             </div>
             <p class="text-coolerGray font-[300] text-[16px]">Contact us for more information or a quote</p>
@@ -14,7 +14,7 @@
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-[40px] lg:grid-cols-3">
             <div 
-            data-aos="zoom-in"
+            data-aos="fade-up"
             data-aos-delay="300"
             class="flex flex-col gap-[20px]">
                 <div>
@@ -27,7 +27,7 @@
                 <Nuxt-link class="text-[16px] font-[400] leading-[24px] underline text-primaryBlue ">hi@untitledui.com</Nuxt-link>
             </div>
             <div 
-            data-aos="zoom-in"
+            data-aos="fade-up"
             data-aos-delay="400"
             class="flex flex-col gap-[20px]">
                 <div>
@@ -40,7 +40,7 @@
                 <Nuxt-link class="text-[16px] font-[400] leading-[24px] underline text-primaryBlue ">133 Benets Rd, Hornchurch RM11 3PT, UK</Nuxt-link>
             </div>
             <div 
-            data-aos="zoom-in"
+            data-aos="fade-up"
             data-aos-delay="500"
             class="flex flex-col gap-[20px]">
                 <div>

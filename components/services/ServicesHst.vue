@@ -3,7 +3,7 @@
         <div class="flex flex-col lg:flex-row gap-[40px] lg:gap-[80px] items-center">
             <div class="flex-1">
                 <div 
-                data-aos="fade-right"
+                data-aos="fade-up"
                 class="flex flex-col gap-[24px]">
                     <div class="flex flex-col gap-[16px]">
                         <p class="flex items-center gap-[8px] text-coolerGray text-[16px] font-[400] leading-[24px] ">
@@ -21,13 +21,13 @@
                         Your one stop portal to finding and applying for suitable contracts in Health and Social care.
                     </p>
 
-                    <Nuxt-link>
+                    <Nuxt-link to="/about">
                         <PrimaryBtn />
                     </Nuxt-link>
                 </div>
             </div>
             <div 
-            data-aos="fade-left"
+            data-aos="fade-up"
             class="flex-1">
                 <img class="h-[348px] md:h-[640px]"  src="/svg/hstc.svg" />
             </div>

@@ -1,12 +1,10 @@
 <template>
-    <div id="#contracts" class="max-w-[1440px]  mx-auto px-[20px] py-[112px] bg-basicGray rounded-br-[120px] rounded-bl-[120px]">
+    <div id="contracts" class="max-w-[1440px]  mx-auto px-[20px] py-[112px] bg-basicGray rounded-br-[120px] rounded-bl-[120px]">
         <div class="flex flex-col lg:flex-row gap-[80px]">
             <div class="flex-1 flex flex-col gap-[32px]">
                 <div 
-                data-aos="fade-zoom-in"
-                data-aos-easing="ease-in-back"
-                data-aos-delay="200"
-                data-aos-offset="0"
+                data-aos="fade-up"
+        
                 class="flex flex-col gap-[16px]">
                     <h1 class="text-[48px] font-[400] leading-[57px] telegraf">Apply For Public Contracts With Ease</h1>
                     <p class="text-coolerGray text-[18px] leading-[27px] ">
@@ -34,10 +32,10 @@
                         </div>
                     
                         <h3 
-                        data-aos="fade-in"
+                        data-aos="fade-up"
                         class="text-coolGray text-[20px] font-[400] leading-[28px]">Apply</h3>
                         <p 
-                        data-aos="fade-in"
+                        data-aos="fade-up"
                         class="text-coolerGray text-[16px] leading-[24px] ">Effortlessly Submit Applications and Increase Your Chances of Winning Contracts</p>
                     </div>
                 </div>
@@ -49,7 +47,7 @@
                </Nuxt-link>
             </div>
             <div 
-            data-aos="zoom-in"
+            data-aos="fade-up"
             class="flex-1 flex justify-center">
                     <img src="/img/overall.png" />
             </div>

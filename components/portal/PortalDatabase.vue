@@ -6,10 +6,8 @@
             <div class="flex justify-center">
                 <div class="lg:w-[768px]">
                     <h1 
-                    data-aos="fade-zoom-in"
-                    data-aos-easing="ease-in-back"
-                    data-aos-delay="900"
-                    data-aos-offset="0"
+                    data-aos="fade-up"
+                  
                     class=" text-coolGray text-[40px] font-[400] leading-[48px] text-center telegraf">Comprehensive Database of Public <br> Contracts</h1>
                 </div>
 

@@ -13,7 +13,7 @@
                 <p 
                 data-aos="fade-right"
                 class="text-coolerGray font-[18px] font-[400] leading-[27px] ">
-                    We offer premium services tailored to your unique needs. Whether you need support with bid and tender writing, conducting audits our expertise is dedicated to helping you reach your objectives.
+                OCMC Offers high quality services to small businesses at affordable rates. Whether you need support with bid and tender writing, conducting audits our expertise is dedicated to helping you reach your objectives.
                 </p>
 
                 <Nuxt-link to="/contact">

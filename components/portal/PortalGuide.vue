@@ -4,9 +4,7 @@
             <div class="lg:w-[768px] mx-auto flex flex-col gap-[24px]">
                 <h1 
                 data-aos="fade-zoom-in"
-                data-aos-easing="ease-in-back"
-                data-aos-delay="700"
-                data-aos-offset="0"
+               
                 class=" text-coolGray text-[40px] font-[400] leading-[48px] text-center telegraf">
                     How to Use the HSTC Contract 
                     <br>
@@ -14,18 +12,15 @@
                 </h1>
                 <p 
                 data-aos="fade-zoom-in"
-                data-aos-easing="ease-in-back"
-                data-aos-delay="800"
-                data-aos-offset="0"
+                
+             
                 class="text-[18px] font-[400] leading-[27px] text-coolerGray text-center">Follow these steps to easily navigate the HSTC Contract Portal and find and apply for public contracts.</p>
             </div>
 
             <div class="grid md:grid-cols-2 lg:grid-cols-3  gap-[48px]">  
                 <div
-                data-aos="fade-zoom-in"
-                data-aos-easing="ease-in-back"
-                data-aos-delay="400"
-                data-aos-offset="0"
+                data-aos="fade-up"
+               
                 >
                     <div class="h-[338px] md:h-[408px] ">
                         <img class="h-full w-full" src="/svg/step1.svg" />
@@ -38,10 +33,8 @@
                     </div>
                 </div>
                 <div
-                data-aos="fade-zoom-in"
-                data-aos-easing="ease-in-back"
-                data-aos-delay="500"
-                data-aos-offset="0"
+                data-aos="fade-up"
+              
                 >
                     <div class="h-[338px] md:h-[408px] ">
                         <img class="h-full w-full" src="/svg/step2.svg" />
@@ -56,10 +49,8 @@
                     </div>
                 </div>
                 <div
-                data-aos="fade-zoom-in"
-                data-aos-easing="ease-in-back"
-                data-aos-delay="600"
-                data-aos-offset="0"
+                data-aos="fade-up"
+              
                 >
                     <div class="h-[338px] md:h-[408px] ">
                         <img class="h-full w-full" src="/svg/step3.svg" />

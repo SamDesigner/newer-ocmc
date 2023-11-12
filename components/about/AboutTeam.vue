@@ -1,6 +1,10 @@
 <template>
     <div class="max-w-[1440px] mx-auto  bg-white">
-        <div class="py-[112px] px-[20px]  bg-lightGrayBg rounded-tr-[120px] rounded-tl-[120px] flex flex-col gap-[80px]">
+        <div 
+        data-aos="fade-up"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        class="py-[112px] px-[20px]  bg-lightGrayBg rounded-tr-[120px] rounded-tl-[120px] flex flex-col gap-[80px]">
             <div class="flex justify-center">
                 <div class=" gap-[32px] flex flex-col items-center justify-center">
                     <p class="flex items-center gap-[8px]">

@@ -14,10 +14,10 @@
           <div class="flex justify-center">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:flex gap-[48px] ">
                 <div 
-                data-aos="fade-down"
+                data-aos="fade-up"
                 data-aos-easing="linear"
-                data-aos-duration="1500"
-                class="w-[335px] lg:w-[405px] pt-[56px] flex flex-col gap-[24px] ring_bg rounded-[64px]">
+                data-aos-duration="500"
+                class="w-[335px] lg:w-[405px] pt-[56px] flex flex-col gap-[24px] ring_bg rounded-tr-[64px] rounded-tl-[64px] rounded-bl-[64px]">
                    <div class="flex flex-col px-[40px]">
                         <h1 class="text-[24px] font-[400] leading-[33px] telegraf text-coolGray">Regulatory Compliance Consulting</h1>
                         <p class="text-[16px] font-[300] leading-[24px] text-coolerGray">
@@ -26,45 +26,45 @@
                    </div>
                     <div 
                     data-aos="fade-left"
-                    data-aos-delay="300"
-                    class="h-[240px]">
-                        <img src="/img/firsthome.png" />
+                    data-aos-delay="100"
+                    class="h-[240px] rounded-bl-[64px]">
+                        <img src="/img/first_card.png" />
                     </div>
                 </div>
                 <div 
-                data-aos="fade-down"
+                data-aos="fade-up"
                 data-aos-easing="linear"
-                data-aos-duration="1500"
+                data-aos-duration="500"
                 class="w-[335px] lg:w-[405px] pt-[56px] flex flex-col justify-between gap-[24px] ring_bg rounded-[64px]">
                    <div class="flex flex-col px-[40px]">
-                        <h1 class="text-[24px] font-[400] leading-[33px] telegraf text-coolGray">Public Contract Procurement</h1>
+                        <h1 class="text-[24px] font-[400] leading-[33px] telegraf text-coolGray">Public Contract <br> Procurement</h1>
                         <p class="text-[16px] font-[300] leading-[24px] text-coolerGray">
-                            We guide clients through intricate regulatory processes, enabling their growth while maintaining compliance.
+                            We create guidance on public contract procurement enabling your organisation to make strategic decisions.
                         </p>
                    </div>
                     <div 
                     data-aos="fade-up"
-                    data-aos-delay="300"
+                    data-aos-delay="100"
                     class="">
-                        <img class="rounded-br-[64px] rounded-bl-[64px]" src="/img/new_building.png" />
+                        <img class="rounded-br-[64px] rounded-bl-[64px]" src="/img/second_card.png" />
                     </div>
                 </div>
                 <div 
-                data-aos="fade-down"
+                data-aos="fade-up"
                 data-aos-easing="linear"
-                data-aos-duration="1500"
-                class="w-[335px] lg:w-[405px] pt-[56px] flex flex-col gap-[24px] ring_bg rounded-[64px]">
+                data-aos-duration="500"
+                class="w-[335px] lg:w-[405px] pt-[56px] flex flex-col gap-[24px] ring_bg rounded-tr-[64px] rounded-tl-[64px] rounded-br-[64px]">
                    <div class="flex flex-col px-[40px]">
-                        <h1 class="text-[24px] font-[400] leading-[33px] telegraf text-coolGray">Regulatory Compliance Consulting</h1>
+                        <h1 class="text-[24px] font-[400] leading-[33px] telegraf text-coolGray">Flexible Tender Writing Services</h1>
                         <p class="text-[16px] font-[300] leading-[24px] text-coolerGray">
-                            We guide clients through intricate regulatory processes, enabling their growth while maintaining compliance.
+                            Whether you're bidding for a framework, DPS, or service proposal, we have the flexible tender writing solutions to help you win.
                         </p>
                    </div>
                     <div 
                     data-aos="fade-right"
-                    data-aos-delay="300"
+                    data-aos-delay="100"
                     class="h-[240px]">
-                        <img src="/img/writer.png" />
+                        <img class="rounded-br-[64px]" src="/img/third_card.png" />
                     </div>
                 </div>
               
@@ -73,7 +73,7 @@
           </div>
             
             <div class="pt-[16px] flex justify-center">
-                <Nuxt-link to="/">
+                <Nuxt-link to="/about">
                   <PrimaryBtn />
                 </Nuxt-link>
             </div>

@@ -9,11 +9,11 @@
     >
       <div
         class="h-[812px] md:h-[720px] mx-auto custom-index overflow-hidden hero_bg rounded-[40px]"
-        :style="{ transform: `scale(${scale})` }"
+      
       >
         <div
           class="flex flex-col gap-[24px] justify-center h-full items-center"
-          :style="{ transform: `translateX(${textTranslate}px)` }"
+         
         >
           <div class="text-white px-[20px] lg:w-[768px] flex flex-col justify-center items-center gap-[24px]">
             <div class="border-y pt-[18px] pb-[16px]">
@@ -41,45 +41,7 @@
     </div>
   </template>
   
-  <script>
-  export default {
-    data() {
-      return {
-        scale: 1,
-        textTranslate: 0,
-        maxScale: 2, // Adjust this value to set the maximum scale
-      };
-    },
-    mounted() {
-      window.addEventListener('scroll', this.handleScroll);
-    },
-    beforeDestroy() {
-      window.removeEventListener('scroll', this.handleScroll);
-    },
-    methods: {
-      handleScroll() {
-        const showcase = this.$refs.showcase;
-        const scrollTop = window.scrollY || window.pageYOffset;
-        const scrollThreshold = 50; // Adjust this value to set the scroll threshold
-        const scalingCoefficient = 0.0005; // Adjust this value for the desired scaling effect
-        const translateCoefficient = 2; // Adjust this value for the desired translation effect
-  
-        // Calculate scale based on scroll position
-        this.scale = 1 + scrollTop * scalingCoefficient;
-  
-        // Apply maximum scale limit
-        this.scale = Math.min(this.scale, this.maxScale);
-  
-        // Apply scale to the background
-        showcase.style.transform = `scale(${this.scale})`;
-  
-        // Calculate text translation based on scroll position
-        this.textTranslate = -scrollTop * translateCoefficient;
-      },
-    },
-  };
-  </script>
-  
+
   <style scoped>
   /* Add other existing styles here */
   

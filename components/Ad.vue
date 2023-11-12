@@ -2,7 +2,7 @@
     <div class="max-w-[1440px] mx-auto py-[112px] px-[20px] lg:px-[64px]">
         <div class="flex gap-[32px] flex-col-reverse lg:flex-row items-end">
             <div 
-            data-aos="fade-down-right"
+            data-aos="fade-up"
 
             class="flex flex-col gap-[32px] flex-1">
                 <div class="border-y border-lightBlue pt-[18px] pb-[16px]">
@@ -35,7 +35,7 @@
               
             </div>
             <div 
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             class="flex-1 flex gap-[24px]">
                 <div>
                     <h3 class="text-[16px] text-coolerGray font-[300] leading-[24px] ">Clients Served:</h3>

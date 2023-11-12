@@ -35,7 +35,7 @@
                     <div>
                         <div class="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-[32px]">
                             <div 
-                            data-aos="flip-up"
+                            data-aos="fade-up"
                             data-aos-delay="500"
                             class="bg-white shadow-md rounded-[16px]">
                                 <div class="h-[300px] rounded-tr-[16px] rounded-tl-[16px]">
@@ -54,7 +54,7 @@
                                 </div>
                             </div>
                             <div 
-                            data-aos="flip-up"
+                            data-aos="fade-up"
                             data-aos-delay="700"
                             class="bg-white shadow-md rounded-[16px]">
                                 <div class="h-[300px] rounded-tr-[16px] rounded-tl-[16px]">
@@ -73,7 +73,7 @@
                                 </div>
                             </div>
                             <div 
-                            data-aos="flip-up"
+                            data-aos="fade-up"
                             data-aos-delay="900"
                             class="bg-white shadow-md rounded-[16px]">
                                 <div class="h-[300px] rounded-tr-[16px] rounded-tl-[16px]">

@@ -16,16 +16,17 @@
                                 Find and Apply for Public Contracts Easily
                             </h1>
                         </div>
+                        <p class="text-center font-[400] leading-[27px] ">Introducing the HSTC Contract Portal, the one-stop solution for finding and applying for public contracts in healthcare and social care.</p>
                     <div class="pt-[16px] flex gap-[16px]">
                         <Nuxt-link 
-                        data-aos="fade-right"
+                        data-aos="fade-up"
                       
                         to="#contracts" class=" cursor-pointer bg-white text-coolerGray py-[14px] px-[32px] rounded-[1000px] gap-[8px] hover:bg-gray-300 cursor-pointer">
                             Get Started
                             <span><i class="pi pi-arrow-up-right"></i></span>
                         </Nuxt-link>
                         <Nuxt-link  to="/"
-                        data-aos="fade-left"
+                        data-aos="fade-up"
                      
                         >
                             <button class="cursor-pointer flex items-center border border-bottonBorder hover:bg-gray-100 transition duration-300 ease-in-out rounded-[1000px] py-[14px] px-[32px] gap-[8px] text-[14px]">

@@ -1,6 +1,6 @@
 <template>
     <div class="py-[96px] max-w-[1440px] mx-auto">
-            <div class="w-[1280px] mx-auto ">
+            <div class="lg:w-[1280px] mx-auto ">
                 <div class="flex flex-col gap-[20px]">
                     <div class="flex flex-col gap-[12px] ">
                         <h3 class="text-primaryBlue text-center text-[16px] font-[400] leading-[24px] ">Contact us</h3>

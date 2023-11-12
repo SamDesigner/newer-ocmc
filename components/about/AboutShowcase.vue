@@ -5,9 +5,11 @@
                 <div class="border-y  pt-[18px] pb-[16px] ">
                     <h1 class="text-[36px] md:text-[48px] leading-[57px] telegraf ">Upscale Your Business Operations</h1>
                 </div>
-                <p class="text-[16px] font-[300] leading-[24px] ">Contact OCMC today to learn how our services can benefit your company.</p>
+                <p class="text-[16px] font-[300] leading-[24px] ">
+                    Take your company to new heights with OCMC!  Contact us today.
+                </p>
                 <div class="pt-[16px]">
-                        <Nuxt-link class="bg-white text-coolerGray py-[14px] px-[32px] rounded-[1000px] gap-[8px] hover:bg-gray-300 cursor-pointer">
+                        <Nuxt-link to="/contact" class="bg-white text-coolerGray py-[14px] px-[32px] rounded-[1000px] gap-[8px] hover:bg-gray-300 cursor-pointer">
                             Get in touch
                             <span><i class="pi pi-arrow-up-right"></i></span>
                         </Nuxt-link>

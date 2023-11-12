@@ -5,12 +5,12 @@
                 <h1 class="text-coolGray text-[32px] md:text-[40px] font-[400] leading-[48px] telegraf ">Find Public Contracts with Ease</h1>
                 <p class="text-[18px] font-[400] leading-[27px] text-coolerGray">Sign up for the HSTC Contract Portal today</p>
             </div>
-            <div>
+            <Nuxt-link to="/contact">
                 <button class="flex items-center border border-bottonBorder hover:bg-gray-100 transition duration-300 ease-in-out whitespace-nowrap rounded-[1000px] py-[14px] px-[32px] gap-[8px] text-[14px]">
                         Learn More 
                         <span><i class="pi pi-arrow-up-right"></i></span>
                 </button>
-            </div>
+            </Nuxt-link>
         </div>
     </div>
 </template>

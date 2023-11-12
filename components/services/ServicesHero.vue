@@ -24,7 +24,7 @@
                     data-aos="fade-right"
                     data-aos-duration="2000"    
                     class="lg:w-[728px] leading-[24px]">
-                        Efficiently manage your operations with our comprehensive  service offerings tailored for healthcare and social care companies.
+                    Improve your contract outcomes with our comprehensive public procurement services tailored to suit your business needs.
                     </p>
 
                     <Nuxt-link  to="/contact">

@@ -1,7 +1,9 @@
 <template>
-    <div class="max-w-[1440px] max-auto py-[64px] md:py-[112px] px-[20px] bg-lightGrayBg rounded-tr-[40px] rounded-tl-[40px] md:rounded-tr-[120px] md:rounded-tl-[120px]">
+    <div class="max-w-[1440px] max-auto py-[64px] md:py-[112px] px-[20px] lg:px-[64px]  rounded-tr-[40px] rounded-tl-[40px] md:rounded-tr-[120px] md:rounded-tl-[120px]">
         <div class="flex flex-col lg:flex-row gap-[48px] md:gap-[80px]  "> 
-            <div class="flex-1">
+            <div 
+            data-aos="fade-up"
+            class="flex-1">
                 <div>
                     <p class="flex text-coolerGray items-center gap-[8px]">
                         <span>
@@ -17,7 +19,9 @@
                     We provide guidance and preparation for licence applications and interviews with regulatory bodies such as CQC, Ofsted, RQIA, and CIW.
                 </p>
             </div>
-            <div class="lg:w-[852px]" >
+            <div 
+            data-aos="fade-up"
+            class="flex-1" >
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-x-[48px] gap-y-[64px]">
                     <div >
                         <div>

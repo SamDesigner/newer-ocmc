@@ -1,4 +1,42 @@
 <template>
+  <div>
+    <div v-if="isActive" class="fixed top-0  custom_index bg-white custom_opacity w-full h-[100vh]">
+        <div @click='closeActive' class="absolute top-4 right-4 ">
+            <span class="text-[40px]"><i class="pi pi-times"></i></span>
+        </div>
+
+        <div class="h-full flex flex-col justify-center items-center gap-[40px]">
+          <div>
+            <Nuxt-link to="/" class="text-coolGray text-[20px] text-center"> 
+                  Home
+            </Nuxt-link>
+          </div>
+          <div>
+            <Nuxt-link to="/about" class="text-coolGray text-[20px] text-center"> 
+                  About
+            </Nuxt-link>
+          </div>
+          <div>
+            <Nuxt-link to="/services" class="text-coolGray text-[20px] text-center"> 
+                  Services
+            </Nuxt-link>
+          </div>
+          <div>
+            <Nuxt-link to="/portal" class="text-coolGray text-[20px] text-center"> 
+                  Portal
+            </Nuxt-link>
+          </div>
+          <div>
+            <Nuxt-link to="/contact" class="text-coolGray text-[20px] text-center"> 
+                  Contact Us
+            </Nuxt-link>
+          </div>
+
+
+
+
+        </div>
+    </div>
   <div
     class=" px-[20px] md:px-[64px] text-baseBlack h-[100px] flex items-center justify-center"
     :class="{ 'fixed-navbar': isFixed }"
@@ -32,11 +70,12 @@
         </Nuxt-link>
 
       </div>
-      <div class="md:hidden">
+      <div @click="openActive" class="md:hidden">
         <img src="/svg/hamburger.svg" />
       </div>
     </div>
   </div>
+</div>
 </template>
 
 <script>
@@ -46,6 +85,7 @@ export default {
       isFixed: false,
       isOpen: false,
       nowOpen: false,
+      isActive:false
     };
   },
   mounted() {
@@ -79,6 +119,12 @@ export default {
     handleIsOpen() {
       this.isOpen = !this.isOpen;
     },
+    openActive(){
+      this.isActive = true
+    },
+    closeActive(){
+      this.isActive = false
+    }
   },
 };
 </script>
@@ -106,6 +152,9 @@ export default {
 }
 .router-link-exact-active {
   color: #2970ff;
+}
+.custom_index{
+  z-index:3000
 }
 
 </style>

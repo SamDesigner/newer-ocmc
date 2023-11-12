@@ -30,5 +30,20 @@
             </div>
 
         </div>
+        <div>
+            <div class="flex flex-col gap-[24px]">
+                <div class="flex flex-col gap-[16px]">
+                    <h1 class="telegraf text-[32px] font-[400] leading-[41px] text-coolGray">Still have questions?</h1>
+                    <p class="text-coolerGray text-[18px] font-[400] leading-[27px]">Contact us today</p>
+                </div>   
+                <Nuxt-link to="/about">
+                    <button class="flex items-center border border-bottonBorder hover:bg-gray-100 transition duration-300 ease-in-out rounded-[1000px] py-[14px] px-[32px] gap-[8px] text-[14px]">
+                        Getin touch
+                        <span><i class="pi pi-arrow-up-right"></i></span>
+                    </button>
+                </Nuxt-link>
+            </div>
+
+        </div>
     </div>
 </template>

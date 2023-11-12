@@ -1,5 +1,5 @@
 <template>
-    <div class="max-w-[1440px] mx-auto  py-[64px] md:py-[112px] px-[20px] lg:px-[64px] flex flex-col gap-[48px] md:gap-[80px] ">
+    <div class="max-w-[1440px] mx-auto  py-[64px] md:py-[112px] px-[20px] lg:px-[64px] flex flex-col gap-[48px] md:gap-[80px] overflow-hidden">
         <div class="border-y border-lightBlue lg:w-[880px]">
             <h1 
             data-aos="fade-zoom-in"
@@ -7,13 +7,12 @@
             data-aos-delay="900"
             data-aos-offset="0"
             class="text-[36px] md:text-[48px] text-coolGray font-[400] leading-[57px] telegraf pt-[18px] pb-[16px]">
-                Ensuring regulatory compliance for health care and social care companies
+            Your Trusted Public <br> Procurement Partner
             </h1>
         </div>
     
         <div 
-        data-aos="fade-in"
-        data-aos-duration="3000"
+     
         class=" h-[188px] w-full  md:h-[738px] md:   mx-auto"
         :style="{ transform: `scale(${scale})` }"
         >
@@ -53,7 +52,7 @@
       handleScroll() {
         const showcase = this.$refs.showcase;
         const scrollTop = window.scrollY || window.pageYOffset;
-        const scrollThreshold = 200; // Adjust this value to set the scroll threshold
+        const scrollThreshold = 50; // Adjust this value to set the scroll threshold
         const scalingCoefficient = 0.00005; // Adjust this value for the desired scaling effect
         const translateCoefficient = 2; // Adjust this value for the desired translation effect
   
