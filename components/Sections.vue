@@ -51,9 +51,9 @@
               {{ text }}
             </p>
           </div>
-          <Nuxt-link to="/contact" class="pt-[14px]">
+          <nuxt-link to="/contact" class="pt-[14px]">
             <PrimaryBtn />
-          </Nuxt-link>
+          </nuxt-link>
         </div>
       </div>
     </div>

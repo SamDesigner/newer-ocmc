@@ -25,12 +25,12 @@
             </h1>
           </div>
           <div class="pt-[16px]">
-            <Nuxt-link
+            <nuxt-link
               class="bg-white text-coolerGray py-[14px] px-[32px] rounded-[1000px] gap-[8px] hover:bg-gray-300 cursor-pointer"
             >
               Get in touch
               <span><i class="pi pi-arrow-up-right"></i></span>
-            </Nuxt-link>
+            </nuxt-link>
           </div>
         </div>
       </div>

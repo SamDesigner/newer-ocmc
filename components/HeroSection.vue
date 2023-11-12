@@ -28,7 +28,7 @@
               task but a strategic step towards your business growth.
             </p>
           </div>
-          <Nuxt-link to="/contact">
+          <nuxt-link to="/contact">
             <button
               data-aos="fade-zoom-in"
               data-aos-easing="ease-in-back"
@@ -39,7 +39,7 @@
               Get in touch
               <span><i class="pi pi-arrow-up-right"></i></span>
             </button>
-          </Nuxt-link>
+          </nuxt-link>
         </div>
       </div>
     </div>
