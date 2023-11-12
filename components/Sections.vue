@@ -3,17 +3,33 @@
     <div
       class="max-w-[1440px] mx-auto py-[32px] lg:py-[112px] px-[20px] lg:px-[64px]"
     >
-      <div class="flex flex-col md:flex-row lg:items-center gap-[80px]">
+      <div class="grid md:grid-cols-2 md:gap-20 gap-10 items-center">
         <!-- data-aos="fade-zoom-in"
                 data-aos-easing="ease-in-back"
                 data-aos-delay="700"
                 data-aos-offset="0" -->
-        <div class="h-[348px] lg:h-[616px]">
-          <img class="rounded-[1000px] object_fit" :src="imageUrl" />
+        <div class="relative">
+          <div class="-z-10">
+            <img
+              :src="svgUrl"
+              alt=""
+              class="absolute top-0 left-0 opacity-20 md:block hidden"
+            />
+          </div>
+          <div class="z-40">
+            <img class="rounded-full w-3/4 mx-auto" :src="imageUrl" />
+          </div>
+          <div>
+            <img
+              :src="svgUrl"
+              alt=""
+              class="absolute bottom-0 right-0 opacity-20 md:block hidden"
+            />
+          </div>
         </div>
 
         <!-- data-aos="fade-left" -->
-        <div class="md:w-[616px] flex flex-col gap-[8px] md:gap-[24px]">
+        <div class="flex flex-col gap-[8px] md:gap-[24px]">
           <div class="flex gap-[8px]">
             <img src="/svg/ellipse.svg" />
             <h4 class="text-coolerGray text-[16px] font-[400] leading-[24px]">
@@ -56,6 +72,7 @@ export default {
     imageUrl: String,
     headerText: String,
     text: String,
+    svgUrl: String,
   },
 };
 </script>

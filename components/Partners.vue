@@ -1,7 +1,7 @@
 <template>
-  <div class="max-w-[1440px] mx-auto">
-    <div class="py-[40px] md:py-[80px] lg:px-[64px]">
-      <p class="text-center">
+  <div class="max-w-[1440px] mx-auto text-coolGray">
+    <div class="py-[40px] md:py-[80px] lg:px-[64px] space-y-3">
+      <p class="text-center telegraf tracking-wide text-lg">
         Recognised Globally For Exceptional Services In Public Procurement
       </p>
       <div class="scrolling-images">

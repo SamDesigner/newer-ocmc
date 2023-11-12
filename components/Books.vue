@@ -9,7 +9,7 @@
       </p>
     </div>
     <div class="grid md:grid-cols-3 md:gap-10 gap-14 my-10">
-      <div v-for="item in items" :key="item.id">
+      <div v-for="item in books" :key="item.id">
         <div class="text-center">
           <img :src="item.image" alt="Book Image" class="rounded-full" />
           <p class="telegraf text-xl py-3">{{ item.title }}</p>
@@ -29,7 +29,7 @@ import { ref } from "vue";
 
 export default {
   setup() {
-    const items = ref([
+    const books = ref([
       {
         title: "Bridging the Gap",
         image: "/img/bridging-the-gap.png",
@@ -44,7 +44,7 @@ export default {
       },
     ]);
     return {
-      items,
+      books,
     };
   },
 };

@@ -1,3 +1,4 @@
+<!-- components/Showcase.vue -->
 <template>
   <div
     data-aos="fade-up"
@@ -40,7 +41,7 @@
 <style scoped>
 .hero_bg {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
-    url("/img/about_heroo.png");
+    url("/img/about_hero.webp");
   background-position: center;
   background-size: cover;
 }

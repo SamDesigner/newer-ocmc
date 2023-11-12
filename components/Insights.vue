@@ -33,117 +33,121 @@
             Gain insights for the Changing Landscape.
           </p>
         </div>
-        <div class="flex flex-col gap-[32px]">
-          <div class="flex justify-end">
-            <ul
-              class="flex gap-[24px] telegraf text-[18px] font-[400] leading-[25.2px] text-tabGray"
-            >
-              <li><nuxt-link>All</nuxt-link></li>
-              <li><nuxt-link>Books</nuxt-link></li>
-              <li><nuxt-link>Videos</nuxt-link></li>
-              <li><nuxt-link>News</nuxt-link></li>
-            </ul>
-          </div>
-          <div>
-            <div
-              class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[32px]"
-            >
-              <div
-                data-aos="flip-up"
-                data-aos-delay="500"
-                class="bg-white shadow-md rounded-[16px]"
+        <TabGroup>
+          <TabList class="flex justify-end space-x-10">
+            <Tab as="template" v-slot="{ selected }">
+              <button
+                :class="{
+                  'underline underline-offset-8 text-primaryBlue outline-none border-none':
+                    selected,
+                  'bg-white text-black': !selected,
+                }"
               >
-                <div class="h-[300px] rounded-tr-[16px] rounded-tl-[16px]">
-                  <img
-                    class="h-full rounded-tr-[16px] rounded-tl-[16px]"
-                    src="/img/blog-1.png"
-                  />
-                </div>
-                <div
-                  class="p-[24px] flex flex-col flex-1 align-self-stretch gap-[24px]"
-                >
-                  <div class="bg-primaryBlue w-fit p-[8px] rounded-[2px]">
-                    <img src="/svg/article-icon.svg" />
-                  </div>
-                  <div class="flex flex-col gap-[8px]">
-                    <h1
-                      class="telegraf align-self-stretch w-full text-coolGray font-[400] text-[24px] leading-[33px]"
+                Books
+              </button>
+            </Tab>
+            <Tab as="template" v-slot="{ selected }">
+              <button
+                :class="{
+                  'underline underline-offset-8 text-primaryBlue outline-none border-none':
+                    selected,
+                  'bg-white text-black': !selected,
+                }"
+              >
+                Videos
+              </button>
+            </Tab>
+            <Tab as="template" v-slot="{ selected }">
+              <button
+                :class="{
+                  'underline underline-offset-8 text-primaryBlue outline-none border-none':
+                    selected,
+                  'bg-white text-black': !selected,
+                }"
+              >
+                News
+              </button>
+            </Tab>
+            <!-- ... -->
+          </TabList>
+          <TabPanels>
+            <TabPanel>
+              <div class="grid md:grid-cols-3 md:gap-10 gap-14 my-10">
+                <div v-for="item in books" :key="item.id">
+                  <div class="text-center">
+                    <img
+                      :src="item.image"
+                      alt="Book Image"
+                      class="rounded-xl shadow"
+                    />
+                    <p class="telegraf text-xl py-3">{{ item.title }}</p>
+                    <button
+                      class="text-primaryBlue hover:bg-primaryBlue/25 rounded-full px-10 py-2 transition-colors duration-150"
                     >
-                      The Importance of Outsourcing in Healthcare
-                    </h1>
-                    <p>
-                      Learn how outsourcing can benefit healthcare
-                      organisations.
+                      Get Now <span><i class="pi pi-arrow-up-right"></i></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </TabPanel>
+            <TabPanel>
+              <div class="grid md:grid-cols-3 gap-10 my-10">
+                <div v-for="item in videos" :key="item.id">
+                  <div class="text-center">
+                    <img
+                      :src="item.image"
+                      alt="Book Image"
+                      class="rounded-full blur-[2px]"
+                    />
+                    <p class="telegraf text-xl py-3 text-center">
+                      {{ item.title }}
                     </p>
                   </div>
                 </div>
               </div>
-              <div
-                data-aos="flip-up"
-                data-aos-delay="700"
-                class="bg-white shadow-md rounded-[16px]"
-              >
-                <div class="h-[300px] rounded-tr-[16px] rounded-tl-[16px]">
-                  <img
-                    class="h-full rounded-tr-[16px] rounded-tl-[16px]"
-                    src="/img/cqc_img.png"
-                  />
-                </div>
-                <div
-                  class="p-[24px] flex flex-col align-self-stretch gap-[24px]"
-                >
-                  <div class="">
-                    <img src="/svg/playy_icon.svg" />
-                  </div>
-                  <div class="flex flex-col gap-[8px]">
-                    <h1
-                      class="telegraf align-self-stretch w-full text-coolGray font-[400] text-[24px] leading-[33px]"
-                    >
-                      The Importance of Outsourcing in Healthcare
-                    </h1>
-                    <p>
-                      Learn how outsourcing can benefit healthcare
-                      organisations.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div
-                data-aos="flip-up"
-                data-aos-delay="300"
-                class="bg-white shadow-md rounded-[16px]"
-              >
-                <div class="h-[300px] rounded-tr-[16px] rounded-tl-[16px]">
-                  <img
-                    class="h-full rounded-tr-[16px] rounded-tl-[16px]"
-                    src="/img/book_cover.png"
-                  />
-                </div>
-                <div
-                  class="p-[24px] flex flex-col align-self-stretch gap-[24px]"
-                >
-                  <div class="">
-                    <img src="/svg/book_icon.svg" />
-                  </div>
-                  <div class="flex flex-col gap-[8px]">
-                    <h1
-                      class="telegraf align-self-stretch w-full text-coolGray font-[400] text-[24px] leading-[33px]"
-                    >
-                      The Importance of Outsourcing in Healthcare
-                    </h1>
-                    <p>
-                      Learn how outsourcing can benefit healthcare
-                      organisations.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+            </TabPanel>
+            <TabPanel>Content 3</TabPanel>
+            <!-- ... -->
+          </TabPanels>
+        </TabGroup>
 
         <Testimonial />
       </div>
     </div>
   </div>
 </template>
+
+<script setup>
+import { ref } from "vue";
+import { TabGroup, TabList, Tab, TabPanels, TabPanel } from "@headlessui/vue";
+
+const books = ref([
+  {
+    title: "Bridging the Gap",
+    image: "/img/bridging-the-gap.png",
+  },
+  {
+    title: "Social Care business management explained",
+    image: "/img/social-care.png",
+  },
+  {
+    title: "Mastering tupe transfers in social care services",
+    image: "/img/mastering-tupe.png",
+  },
+]);
+
+const videos = ref([
+  {
+    title: "CQC Regulation 13: Good Governance",
+    image: "/img/good-governance.png",
+  },
+  {
+    title: "CQC Regulation 13: Good Governance",
+    image: "/img/good-governance.png",
+  },
+  {
+    title: "CQC Regulation 13: Good Governance",
+    image: "/img/good-governance.png",
+  },
+]);
+</script>
