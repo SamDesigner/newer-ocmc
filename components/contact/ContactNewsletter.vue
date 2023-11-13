@@ -1,4 +1,5 @@
 <template>
+
     <div class="max-w-[1440px] mx-auto py-[96px]">
         <div class="lg:w-[1280px] mx-auto px-[30px] py-[64px] rounded-[16px] border border-bottonBorder bg-newsBg">
             <div class="flex flex-col gap-[30px] justify-center items-center lg:flex-row">
@@ -17,6 +18,7 @@
                     <p class="text-coolerGray text-[14px] leading-[21px]">we care about your data in outr privacy policy</p>
                 </div>
             </div>
-        </div>
+
     </div>
+  </div>
 </template>

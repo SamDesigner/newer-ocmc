@@ -38,37 +38,36 @@
         </div>
     </div>
   <div
-    class=" px-[20px] md:px-[64px] text-baseBlack h-[100px] flex items-center justify-center"
+    class="px-[20px] md:px-[64px] text-baseBlack h-[100px] flex items-center justify-center"
     :class="{ 'fixed-navbar': isFixed }"
   >
     <div class="flex justify-between items-center mx-auto w-[1440px]">
-      <Nuxt-link to="/">
+      <nuxt-link to="/">
         <img src="/svg/logo.svg" />
-      </Nuxt-link>
+      </nuxt-link>
 
       <div class="hidden md:flex gap-[32px]">
-        <Nuxt-link to="/about" class="text-[16px]">About Us</Nuxt-link>
+        <nuxt-link to="/about" class="text-[16px]">About Us</nuxt-link>
         <div @mouseover="openDropdown" absolute @mouseleave="closeDropdown">
-          <Nuxt-link  class=" text-[16px] flex items-center gap-[4px]">
+          <nuxt-link class="text-[16px] flex items-center gap-[4px]">
             Services
             <span class="pi pi-angle-down"></span>
-          </Nuxt-link>
+          </nuxt-link>
           <DropDown class="custom_index" v-show="nowOpen" />
         </div>
 
-        <Nuxt-link to="/resources" class="text-[16px]">Resources</Nuxt-link>
+        <nuxt-link to="/resources" class="text-[16px]">Resources</nuxt-link>
       </div>
 
       <div class="hidden md:block">
-        <Nuxt-link to="/contact">
-            <button
+        <nuxt-link to="/contact">
+          <button
             class="text-white bg-primaryBlue hover:bg-blue-500 py-[14px] px-[32px] rounded-[1000px]"
           >
             Get in touch
             <span><i class="pi pi-arrow-up-right"></i></span>
           </button>
-        </Nuxt-link>
-
+        </nuxt-link>
       </div>
       <div @click="openActive" class="md:hidden">
         <img src="/svg/hamburger.svg" />
@@ -153,8 +152,10 @@ export default {
 .router-link-exact-active {
   color: #2970ff;
 }
+
 .custom_index{
   z-index:3000
 }
+
 
 </style>

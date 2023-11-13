@@ -1,4 +1,5 @@
 <template>
+
     <div class="max-w-[1440px] max-auto py-[64px] md:py-[112px] px-[20px] lg:px-[64px]  rounded-tr-[40px] rounded-tl-[40px] md:rounded-tr-[120px] md:rounded-tl-[120px]">
         <div class="flex flex-col lg:flex-row gap-[48px] md:gap-[80px]  "> 
             <div 
@@ -61,6 +62,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+
     </div>
+  </div>
 </template>

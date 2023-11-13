@@ -1,4 +1,5 @@
 <template>
+
     <div class="max-w-[1440px] mx-auto py-[64px] md:py-[122px]  px-[20px] lg:px-[64px] flex flex-col gap-[80px]">
         <div class="lg:w-[778px] flex flex-col gap-[32px] "> 
             <div class="border-y border-lightBlue pt-[18px] pb-[16px]">
@@ -24,7 +25,7 @@
                     <h3 aria-valuemax="text-darkerGray font-[400] leading-[28px] telegraf text-[20px]">Email</h3>
                     <p class="text-[16px] font-[400] leading-[24px]">Our friendly team is here to help</p>
                 </div>
-                <Nuxt-link class="text-[16px] font-[400] leading-[24px] underline text-primaryBlue ">hi@untitledui.com</Nuxt-link>
+                <Nuxt-link class="text-[16px] font-[400] leading-[24px] underline text-primaryBlue ">hello@o.cmanagementconsultants.co.uk</Nuxt-link>
             </div>
             <div 
             data-aos="fade-up"
@@ -53,6 +54,6 @@
                 <Nuxt-link class="text-[16px] font-[400] leading-[24px] underline text-primaryBlue ">+44 7903094884</Nuxt-link>
             </div>
         </div>
-    </div>
-</template>
 
+  </div>
+</template>

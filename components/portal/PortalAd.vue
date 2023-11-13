@@ -1,4 +1,5 @@
 <template>
+
     <div class="max-w-[1440px] mx-auto">
         <div class="bg-lightGrayBg py-[112px] px-[20px] gap-[20px] md:px-[64px] rounded-tr-[40px] rounded-tl-[40px] md:rounded-tr-[120px] md:rounded-tl-[120px] flex flex-col items-start md:flex-row md:items-end justify-between">
             <div class="flex flex-col gap-[24px]">
@@ -12,5 +13,7 @@
                 </button>
             </Nuxt-link>
         </div>
+
     </div>
+ 
 </template>

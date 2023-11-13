@@ -1,7 +1,5 @@
-
-
-
 <template>
+
     <div class="overflow-hidden">
         <Navigation />
         <AboutHero class="overflow-hidden" />
@@ -17,6 +15,7 @@
    
        <AboutShowcase class="overflow-hidden" />
 
-        <Footer />
-    </div>
+
+    <Footer />
+  </div>
 </template>

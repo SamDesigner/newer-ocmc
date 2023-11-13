@@ -3,9 +3,9 @@
         <div class="flex flex-col gap-[80px]">
             <div 
             data-aos="fade-up"
-            class="flex flex-col lg:flex-row items-center gap-[80px] px-[20px]">
+            class="flex flex-col lg:flex-row items-center justify-center gap-[80px] px-[64px]">
                 <div class="flex-1 flex flex-col gap-[24px]">
-                        <div class="border-y border-lightBlue pt-[18px] pv-[16px]">
+                        <div class="border-y border-lightBlue pt-[18px] pb-[16px]">
                             <h1 class="text-[36px] md:text-[48px] font-[400] leading-[43px] md:leading-[57px] telegraf text-coolGray ">Pursuing Success Through Exceptional  Service</h1>
                         </div>
                         <p class="text-coolerGray text-[16px] font-[300] leading-[24px] ">

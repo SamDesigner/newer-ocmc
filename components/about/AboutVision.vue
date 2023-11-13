@@ -1,4 +1,5 @@
 <template>
+
     <div class="max-w-[1440px] mx-auto px-[40px] lg:px-[240px] flex flex-col justify-center items-center">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-[40px] ">
             <div 
@@ -39,7 +40,7 @@
                     To pioneer sustainable growth for small businesses in public procurement through our premium services.
                 </p>
             </div>
-        </div>
 
     </div>
+  </div>
 </template>

@@ -1,16 +1,23 @@
 <template>
-    <div class="max-w-[1440px] mx-auto py-[64px] md:py-[112px] px-[20px] lg:px-[64px]">
-        <div class="flex flex-col gap-[48px]">
-            <div class="flex items-center justify-center">   
-                <div class="w-[768px] border-y border-lightBlue pt-[18px] pb-[16px]">
-                    <h1
-                    data-aos="fade-zoom-in"
-                    data-aos-easing="ease-in-back"
-                    data-aos-delay="700"
-                    data-aos-offset="0"
-                    class="telegraf text-[36px] md:text-[48px] text-coolGray text-center font-[400]">Streamline Your Operations with OCMC's Services</h1>
-                </div>
-            </div>
+  <div
+    class="max-w-[1440px] mx-auto py-[64px] md:py-[112px] px-[20px] lg:px-[64px]"
+  >
+    <div class="flex flex-col gap-[48px]">
+      <div class="flex items-center justify-center">
+        <div class="w-[768px] border-y border-lightBlue pt-[18px] pb-[16px]">
+          <h1
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="700"
+            data-aos-offset="0"
+            class="telegraf text-[36px] md:text-[48px] text-coolGray text-center font-[400]"
+          >
+            Streamline Your Operations with OCMC's Services
+          </h1>
+        </div>
+      </div>
+  
+
           <div class="flex justify-center">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:flex gap-[48px] ">
                 <div 
@@ -73,22 +80,26 @@
                 <Nuxt-link to="/about">
                   <PrimaryBtn />
                 </Nuxt-link>
+
             </div>
         </div>
-        
-    </div>
+        </div>
+   
+
+     
+  
 </template>
 
-<style >
-    .telegraf{
-        font-family: 'PP Telegraf' !important;
-    }
-    .object_fit{
-        object-fit: cover;
-    }
-    .ring_bg{
-        background:url('/svg/ring_icon.svg') no-repeat;
-        background-position:left;
-        background-color: #F9F9FB;
-    }
+<style>
+.telegraf {
+  font-family: "PP Telegraf" !important;
+}
+.object_fit {
+  object-fit: cover;
+}
+.ring_bg {
+  background: url("/svg/ring_icon.svg") no-repeat;
+  background-position: left;
+  background-color: #f9f9fb;
+}
 </style>

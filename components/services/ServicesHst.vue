@@ -1,4 +1,5 @@
 <template>
+
     <div class="max-w-[1440px] py-[112px] px-[20px] lg:px-[64px]">
         <div class="flex flex-col lg:flex-row gap-[40px] lg:gap-[80px] items-center">
             <div class="flex-1">
@@ -30,6 +31,8 @@
             data-aos="fade-up"
             class="flex-1">
                 <img class="h-[348px] md:h-[640px]"  src="/svg/hstc.svg" />
+
+ 
             </div>
         </div>
     </div>

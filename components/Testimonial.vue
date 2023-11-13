@@ -1,6 +1,7 @@
 <template>
+
     <div class="max-w-[1440px] mx-auto pt-[112px] px-[20px] md:px-[64px]">
-        <div class="bg-white  p-[40px] md:p-[56px] flex flex-col gap-[56px] border border-bottonBorder">
+        <div class="bg-white  p-[40px] md:p-[56px] flex flex-col gap-[56px] border border-bottonBorder rounded-[16px]">
             <p 
             data-aos="fade-zoom-in"
             data-aos-easing="ease-in-back"
@@ -22,6 +23,10 @@
                 </div>
               
             </div>
+
         </div>
+   
     </div>
+   
+
 </template>

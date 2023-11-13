@@ -1,4 +1,5 @@
 <template>
+
     <div class="max-w-[1440px] mx-auto py-[112px] px-[20px] lg:px-[64px]">
         <div class="flex gap-[32px] flex-col-reverse lg:flex-row items-end">
             <div 
@@ -51,12 +52,15 @@
                 </div>
             </div>
        
-        </div>
+
+      </div>
     </div>
+
 </template>
 
 <style scoped>
-    .custom_shadow{
-        box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06), 0px 1px 3px 0px rgba(0, 0, 0, 0.10);
-    }
+.custom_shadow {
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+}
 </style>

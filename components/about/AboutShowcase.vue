@@ -1,4 +1,5 @@
 <template>
+
     <div class="max-w-[1440px] mx-auto ">
         <div class="showcase_bg rounded-tr-[40px] rounded-tl-[40px] md:rounded-tr-[120px] md:rounded-tl-[120px] h-[456px] py-[64px] md:py-[112px] px-[20px] md:px-[64px]">
             <div class="text-white lg:w-[768px] flex flex-col gap-[24px]">
@@ -15,14 +16,19 @@
                         </Nuxt-link>
                 </div>
             </div>
+
         </div>
-    </div>
+     
+        </div>
+  
+
 </template>
 
 <style scoped>
-    .showcase_bg{
-        background: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)) , url('/img/showcase_bg.png');
-        background-size: cover;
-        background-position: center;
-    }
+.showcase_bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/img/showcase_bg.png");
+  background-size: cover;
+  background-position: center;
+}
 </style>

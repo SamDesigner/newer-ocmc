@@ -1,4 +1,5 @@
 <template>
+
     <div id="contracts" class="max-w-[1440px]  mx-auto px-[20px] py-[112px] bg-basicGray rounded-br-[120px] rounded-bl-[120px]">
         <div class="flex flex-col lg:flex-row gap-[80px]">
             <div class="flex-1 flex flex-col gap-[32px]">
@@ -51,6 +52,7 @@
             class="flex-1 flex justify-center">
                     <img src="/img/overall.png" />
             </div>
-        </div>
+
     </div>
+  </div>
 </template>

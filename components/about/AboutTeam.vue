@@ -1,4 +1,5 @@
 <template>
+
     <div class="max-w-[1440px] mx-auto  bg-white">
         <div 
         data-aos="fade-up"
@@ -98,13 +99,12 @@
                     </div>
                 </div>
             </div>
-            
-        </div>
+        </div>            
     </div>
 </template>
 
 <style scoped>
-    .img_fit{
-        object-fit: cover;
-    }
+.img_fit {
+  object-fit: cover;
+}
 </style>

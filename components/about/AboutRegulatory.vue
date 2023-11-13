@@ -1,4 +1,5 @@
 <template>
+
     <div class="max-w-[1440px] mx-auto  py-[64px] md:py-[112px] px-[20px] lg:px-[64px] flex flex-col gap-[48px] md:gap-[80px] overflow-hidden">
         <div class="border-y border-lightBlue lg:w-[880px]">
             <h1 
@@ -18,21 +19,23 @@
         >
             <img class="h-full w-full img_fit rounded-br-[40px] rounded-bl-[40px] md:rounded-br-[120px] md:rounded-bl-[120px] hover:rounded-[0px] custom_transition " src="/img/about_hero.png" />
         </div>
+
     </div>
+
+  
+
 </template>
 <style scoped>
-    .custom_transition{
-        transition: 0.5s ease all;
-    }
-    .img_fit{
-        object-fit: cover;
-    }
-    @media(max-width:414px){
-        .width{
-            width: 335px;
-        }
-    }
+.img_fit {
+  object-fit: cover;
+}
+@media (max-width: 414px) {
+  .width {
+    width: 335px;
+  }
+}
 </style>
+
 <script>
   export default {
     data() {
@@ -72,3 +75,4 @@
   };
   </script>
   
+

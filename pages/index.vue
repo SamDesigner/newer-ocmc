@@ -3,6 +3,7 @@
     <Navigation />
     <HeroSection class="overflow-x-hidden" />
     <Operations class="overflow-x-hidden" />
+
    
     
        <div>
@@ -38,5 +39,6 @@
       <Footer />
     </div>
    
+
 
 </template>

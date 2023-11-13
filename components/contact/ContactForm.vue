@@ -1,4 +1,5 @@
 <template>
+
     <div class="py-[96px] max-w-[1440px] mx-auto">
             <div class="lg:w-[1280px] mx-auto ">
                 <div class="flex flex-col gap-[20px]">
@@ -42,19 +43,21 @@
                             <label>Message</label>
                             <textarea placeholder="Leave us a message" class="border text-[16px] border-inputBorder py-[14px] px-[16px] rounded-[8px]">
 
-                            </textarea>
-                        </div>
+            </textarea>
+          </div>
 
-                        <div class="flex items-center gap-[12px]">
-                            <input type="checkbox" class="border text-[16px] ">
-                            <span>
-                                You agree to our friendly privacy policy
-                            </span>
-                        </div>
+          <div class="flex items-center gap-[12px]">
+            <input type="checkbox" class="border text-[16px]" />
+            <span> You agree to our friendly privacy policy </span>
+          </div>
 
-                        <button class="bg-primaryBlue text-white py-[14px] px-[32px] rounded-[1000px] w-full">Send message</button>
-                    </form>
-                </div>  
-            </div>
+          <button
+            class="bg-primaryBlue text-white py-[14px] px-[32px] rounded-[1000px] w-full"
+          >
+            Send message
+          </button>
+        </form>
+      </div>
     </div>
+  </div>
 </template>

@@ -1,4 +1,5 @@
 <template>
+
     <div
       data-aos="fade-up"
       data-aos-delay="300"
@@ -59,8 +60,10 @@
                     </swiper-slide>
             </swiper>
 
+
         </div>
     </div>
+
 </template>
   
 
@@ -131,3 +134,4 @@
    },
    };
 </script>
+
