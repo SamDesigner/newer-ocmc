@@ -12,14 +12,14 @@
     </div>
     <div class="grid md:grid-cols-3 gap-10 my-10">
       <div v-for="item in videos" :key="item.id">
-        <div class="text-center">
-          <img
-            :src="item.image"
-            alt="Book Image"
-            class="rounded-full blur-[2px]"
-          />
-          <p class="telegraf text-xl py-3 text-center">{{ item.title }}</p>
-        </div>
+        <iframe
+          src="https://www.youtube.com/embed/ru_m2_QrRYQ?si=NFkhMgO41nfQUzCk"
+          title="YouTube video player"
+          frameborder="0"
+          class="w-full h-full rounded-xl"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
       </div>
     </div>
   </section>
