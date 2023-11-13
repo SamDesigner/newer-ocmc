@@ -1,21 +1,19 @@
 <template>
-
-    <div class="max-w-[1440px] mx-auto">
-        <div class="py-[40px] md:py-[80px] lg:px-[64px]">
-           <div class="scrolling-images flex justify-between gap-[40px]">
-            
-                <img class="object_fit h-[50px] flex-1" src="svg/relume.svg"  />
-                <img class="object_fit h-[50px] flex-1" src="svg/Black.svg" />
-                <img class="object_fit h-[50px] flex-1" src="svg/hst.svg" />
-                <img class="object_fit h-[50px] flex-1" src="svg/ws.svg" />
-                <img class="object_fit h-[50px] flex-1" src="svg/treasure.svg" />
-                <img class="object_fit h-[50px] flex-1" src="svg/crystal.svg" />
-               
-           </div> 
-        </div>
-
+  <div class="max-w-[1440px] mx-auto">
+    <div class="py-[40px] md:py-[80px] lg:px-[64px] space-y-5">
+      <p class="text-center telegraf tracking-wide text-lg">
+        Recognised Globally For Exceptional Services In Public Procurement
+      </p>
+      <div class="scrolling-images flex justify-between gap-[40px]">
+        <img class="object_fit h-[50px] flex-1" src="svg/relume.svg" />
+        <img class="object_fit h-[50px] flex-1" src="svg/Black.svg" />
+        <img class="object_fit h-[50px] flex-1" src="svg/hst.svg" />
+        <img class="object_fit h-[50px] flex-1" src="svg/ws.svg" />
+        <img class="object_fit h-[50px] flex-1" src="svg/treasure.svg" />
+        <img class="object_fit h-[50px] flex-1" src="svg/crystal.svg" />
+      </div>
     </div>
-
+  </div>
 </template>
 <style scoped>
 /* Define the keyframes for the horizontal movement */

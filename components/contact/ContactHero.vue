@@ -40,9 +40,12 @@
             </div>
 
             <nuxt-link
-              class="text-primaryBlue text-[16px] font-[400] leading-[24px] underline"
-              >hello@o.cmanagementconsultants.co.uk</nuxt-link
+              to="mailto:hello@o.cmanagementconsultants.co.uk"
+              tag="a"
+              class="text-[16px] font-[400] leading-[24px] underline text-primaryBlue"
             >
+              hello@o.cmanagementconsultants.co.uk
+            </nuxt-link>
           </div>
         </div>
         <div
@@ -92,7 +95,10 @@
             </div>
 
             <nuxt-link
-              class="text-primaryBlue text-[16px] font-[400] leading-[24px] underline"
+              :to="'https://api.whatsapp.com/send?phone=447903094884'"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-[16px] font-[400] leading-[24px] underline text-primaryBlue"
               >+44 7903094884</nuxt-link
             >
           </div>

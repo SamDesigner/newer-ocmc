@@ -3,7 +3,7 @@
     data-aos="fade-up"
     data-aos-delay="300"
     data-aos-easing="ease-in-out-cubic"
-    class="pt-[24px] max-w-[1440px] mx-auto px-10 bg-basicGray"
+    class="pt-[24px] max-w-[1440px] mx-auto md:px-10 px-5 bg-basicGray"
   >
     <div class="h-[812px] md:h-[720px] mx-auto hero_bg rounded-[40px]">
       <div class="h-full flex flex-col justify-center md:justify-start">
@@ -24,14 +24,14 @@
             </h1>
           </div>
 
-
-                    <p 
-                    data-aos="fade-right"
-                    data-aos-duration="2000"    
-                    class="lg:w-[728px] leading-[24px]">
-                    Improve your contract outcomes with our comprehensive public procurement services tailored to suit your business needs.
-                    </p>
-
+          <p
+            data-aos="fade-right"
+            data-aos-duration="2000"
+            class="lg:w-[728px] leading-[24px]"
+          >
+            Improve your contract outcomes with our comprehensive public
+            procurement services tailored to suit your business needs.
+          </p>
 
           <nuxt-link to="/contact">
             <button

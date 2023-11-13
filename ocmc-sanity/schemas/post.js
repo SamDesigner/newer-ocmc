@@ -8,7 +8,7 @@ export default defineType({
     defineField({
       name: 'publishedAt',
       title: 'Published at',
-      type: 'datetime',
+      type: 'date',
     }),
     defineField({
       name: 'title',
@@ -97,8 +97,8 @@ export default defineType({
       type: 'string',
     }),
     defineField({
-      name: 'author_twitter_handle',
-      title: 'Author Twitter Handle',
+      name: 'author_instagram_handle',
+      title: 'Author Instagram Handle',
       type: 'string',
     }),
     defineField({
