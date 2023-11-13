@@ -6,7 +6,7 @@
       </p>
       <div class="scrolling-images flex justify-between gap-[40px]">
         <!-- <img class="object_fit h-[50px] flex-1" src="svg/relume.svg" /> -->
-        <img class="object_fit h-[50px] flex-1" src="svg/Black.svg" />
+        <img class="object_fit h-[50px] flex-1" src="svg/black.svg" />
         <img class="object_fit h-[50px] flex-1" src="svg/hst.svg" />
         <img class="object_fit h-[50px] flex-1" src="svg/ws.svg" />
         <img class="object_fit h-[50px] flex-1" src="svg/treasure.svg" />
