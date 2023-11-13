@@ -11,7 +11,7 @@
     <div class="md:pb-[112px]">
       <AboutTestimonial class="overflow-x-hidden" />
     </div>
-    <!-- <Partners /> -->
+    <Partners />
     <AboutShowcase class="overflow-hidden" />
     <Footer />
   </div>
