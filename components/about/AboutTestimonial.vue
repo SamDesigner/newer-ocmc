@@ -23,9 +23,9 @@
         data-aos-offset="0"
         class="flex items-center flex-col gap-[16px]"
       >
-        <div class="w-[56px] h-[56px] rounded-[56px]">
+        <!-- <div class="w-[56px] h-[56px] rounded-[56px]">
           <img class="h-full w-full" src="/svg/avatar.svg" />
-        </div>
+        </div> -->
         <div class="text-center">
           <h1 class="text-darkerBlue text-[16px] font-[600] leading-[24px]">
             Michael Okorie

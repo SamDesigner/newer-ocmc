@@ -19,7 +19,13 @@
           organizations across various sectors, including healthcare, education,
           and transportation. Partner with OCMC and experience the difference.
         </p>
-        <PrimaryBtn class="hover:bg-gray-700 mt-[16px] w-fit" />
+        <nuxt-link
+          to="/about"
+          class="flex items-center border border-bottonBorder mt-[16px] w-fit bg-white text-coolerGray transition duration-300 ease-in-out rounded-[1000px] py-[14px] px-[32px] gap-[8px] text-[14px]"
+        >
+          About Us
+          <span><i class="pi pi-arrow-up-right"></i></span>
+        </nuxt-link>
       </div>
       <div
         data-aos="fade-left"

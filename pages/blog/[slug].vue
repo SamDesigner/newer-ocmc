@@ -4,8 +4,10 @@
     <section class="md:mt-20 mt-5">
       <div class="space-y-5 text-center max-w-6xl md:px-0 px-4 mx-auto">
         <p class="text-primaryBlue">Published at {{ post.publishedAt }}</p>
-        <p class="font-semibold text-4xl">{{ post.title }}</p>
-        <p class="">{{ post.subtitle }}</p>
+        <p class="font-semibold text-4xl md:max-w-3xl mx-auto">
+          {{ post.title }}
+        </p>
+        <p class="md:max-w-3xl mx-auto">{{ post.subtitle }}</p>
         <img
           :src="$urlFor(post.mainImage).url()"
           :alt="post.slug"
@@ -62,8 +64,8 @@
                 <li
                   class="border border-[#7D89B0] rounded-md h-8 w-8 flex items-center justify-center"
                 >
-                  <nuxt-link :to="post.author_twitter_handle"
-                    ><i class="pi pi-twitter"></i
+                  <nuxt-link :to="post.author_instagram_handle"
+                    ><i class="pi pi-instagram"></i
                   ></nuxt-link>
                 </li>
                 <li

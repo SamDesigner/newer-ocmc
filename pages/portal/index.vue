@@ -6,7 +6,7 @@
     <PortalDatabase />
     <PortalGuide />
     <AboutTestimonial />
-    <!-- <Partners /> -->
+    <Partners />
     <PortalAd />
     <Footer />
   </div>

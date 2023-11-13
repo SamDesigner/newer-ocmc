@@ -25,16 +25,22 @@
           <div>
             <ul class="flex items-center gap-[40px]">
               <li>
-                <nuxt-link to=""><img src="/svg/in.svg" /></nuxt-link>
+                <nuxt-link
+                  to="https://www.linkedin.com/company/o-c-management-consultants/"
+                  ><img src="/svg/in.svg"
+                /></nuxt-link>
               </li>
               <li>
-                <nuxt-link to=""><img src="/svg/ig.svg" /></nuxt-link>
+                <nuxt-link
+                  to="https://instagram.com/ocmanagementconsultants?igshid=NzZlODBkYWE4Ng%3D%3D&utm_source=qr"
+                  ><img src="/svg/ig.svg"
+                /></nuxt-link>
               </li>
               <li>
-                <nuxt-link to=""><img src="/svg/twitter.svg" /></nuxt-link>
-              </li>
-              <li>
-                <nuxt-link to=""><img src="/svg/facebook.svg" /></nuxt-link>
+                <nuxt-link
+                  to="https://www.facebook.com/profile.php?id=100067805363248"
+                  ><img src="/svg/facebook.svg"
+                /></nuxt-link>
               </li>
             </ul>
           </div>
